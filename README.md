@@ -77,3 +77,6 @@ This is my ElvUI Profile String.
 
   5. After iporting the profiles, the interface must be reloaded once, just type /rl in the chat.
 ```
+
+## Screenshots
+[![scr1](https://github.com/mBlinkii/MaUI-v5-ElvUI-Profile-Strings/blob/main/Screenshots/2022-05-08%20(1).png)]
