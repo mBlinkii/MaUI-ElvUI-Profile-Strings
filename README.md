@@ -80,3 +80,4 @@ This is my ElvUI Profile String.
 
 ## Screenshots
 ![scr1](https://github.com/mBlinkii/MaUI-v5-ElvUI-Profile-Strings/blob/main/Screenshots/2022-05-08%20(1).png)
+![scr2](https://github.com/mBlinkii/MaUI-v5-ElvUI-Profile-Strings/blob/main/Screenshots/2022-05-12.png)
