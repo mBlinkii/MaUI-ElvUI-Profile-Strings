@@ -55,7 +55,7 @@ This is my ElvUI Profile String.
 
 
 ## Installation
-[![MaUI v5](https://img.shields.io/badge/Profile-MaUIv5-yellow)](https://github.com/mBlinkii/MaUI-v5-ElvUI-Profile-Strings/tree/main/Maui%20v5%20Strings)
+[![MaUI v5](https://img.shields.io/badge/Profile-MaUIv5-blueviolet)](https://github.com/mBlinkii/MaUI-v5-ElvUI-Profile-Strings/tree/main/Maui%20v5%20Strings)
 
 [DE] Import reihen folge
 
