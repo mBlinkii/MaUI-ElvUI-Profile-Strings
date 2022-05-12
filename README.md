@@ -1,26 +1,79 @@
-# mMediaTag
-mMediaTag is a plugin for ElvUI with additional Textures, Chatbackgrounds, Tags for the Unitframes, Datatext and more.
+# MaUI v5 - ElvUI Profile
 
-# Special features:
-- 214 Statusbar Texturs
-- 6 Chatbackgrounds
-- 10 Backgrounds
-- 61 Tags for ElvUI
-- Tooltip Icons
-- Links your Keystone to Chat, if someone write !key or !keys in Chat
-- Automatic Class color for Target Nameplate Border and hover effect
-- Dock Icons, LFD Tool shows Great Vault Infos
-- Objectiv Tracker Skin, (Questwatch)
+[DE]
+Dies ist mein ElvUI Profile String.
 
-# Datatexts:
-- Systemmenu: opens a colorful Systemmenu and Extra featuers
-- Professions: fast acces to your Professions
-- Dungeon: fast acces to LFD Tool and much useful Dungeon infos
-- Currency: colorful and customizable Infos for Anima, Greatful Offering, Infused Ruby, SoulAsh, Stygia
-- Dock: Clickable Icons for to create your own custom dock bar, Icons for Achievement, Blizzard Store, Charakter, Collections Journa, Encounter Journal, Guild, Friends, LFD Tool,
-- Main Menu, Quest, Spell Book, Talent, FPS/MS, Ilvl, Durability, Profession, Calendar
-- Combattime
-- Cordinates X and Y seperate
+[EN]
+This is my ElvUI Profile String.
+## Features
 
-# These AddOns are required:
-- ElvUi
+[DE]
+ - Selbsterstellte Dock Leiste mit nützlichen Funktionen.
+ - Berufsmenü.
+ - Das Ziel einer Einheit wird auf der Namensplakette angezeigt.
+ - Gesundheit text der Gruppeneinheitsfenster Wechselt zwischen max. Leben und Prozentanzeige im Kampf
+ - Mausover Todes anzeige auf den Gruppenfenstern (Anzahl der Tode eines Mitspielers)
+ - Rare/Elite/Boss Gegner werden besonders hervorgehoben (Farbe des Textes ändert sich)
+ - Fraktionssymbol und PVP Text wird angezeigt, wenn der Mitspielers PVP Markiert ist.
+ - Questlog wird geskinnt
+ - Anzeige der wichtigsten Abzeichen, oben links.
+ - Dungeon Bosse Werden in den Shadowlands Dungeons besonders hervorgehoben.
+ - M+ Erleichterung durch farblicher Hervorhebung von Verschiedensachen.
+ - Wichtige Dungeon Gegner Werden farblich hervorgehoben
+ - Die Affix in einer M+ Urh/Vy/Wo werden farblich Hervorgehoben
+ - Inspirierende Gegner werden hervorgehoben
+ - Gegner, die in blutig stehen, werden hervorgehoben
+
+ [EN]
+ - Self created dock bar with useful functions.
+ - Profession menu.
+ - The target of a unit is displayed on the Nameplates.
+ - Health text of group unit switches between max life and percentage display in combat.
+ - Mouse over death indicator on the group windows (number of deaths of a teammate)
+ - Rare/Elite/Boss enemies are highlighted (color of text changes)
+ - Faction icon and PVP text is displayed when the teammate is PVP marked.
+ - Quest log is skinned
+ - Display of the most important Currencys, on top left.
+ - Dungeon bosses Are highlighted in Shadowlands dungeons.
+ - M+ color highlighting of miscellaneous units.
+ - Important dungeon units are highlighted in color.
+ - The affixes in a M+ Urh/Vy/Wo will be highlighted.
+ - Inspiring units are highlighted
+ - Units standing in sanguino are highlighted
+## Addons
+
+[DE] Diese Addons werden Benötigt.
+
+[EN] These addons are required.
+
+
+[![ElvUI](https://img.shields.io/badge/Addon-ElvUI-orange)](https://www.tukui.org/download.php?ui=elvui)
+[![mMediaTag](https://img.shields.io/badge/Addon-mMediaTag-green)](https://addons.wago.io/addons/mmediatag)
+[![AddonSkins](https://img.shields.io/badge/Addon-AddonSkins-blue)](https://addons.wago.io/addons/addonskins)
+[![ProjectAzilroka](https://img.shields.io/badge/Addon-ProjectAzilroka-blue)](https://addons.wago.io/addons/projectazilroka)
+[![FCT](https://img.shields.io/badge/Addon-FCT-red)](https://www.tukui.org/addons.php?id=137)
+
+
+## Installation
+
+[DE] Import reihen folge
+
+```bash
+  1. Profil
+  2. Namansplaketten
+  3. Global
+  4. Privat
+
+  5. Nach dem Iprortieren der Profile, muss das Interface einmal neu geladen werden, dazu muss einfach /rl im Chat eingegeben werden.
+```
+
+[EN] Import series sequence
+
+```bash
+  1. Profile
+  2. Nameplates
+  3. Global
+  4. Privat
+
+  5. After iporting the profiles, the interface must be reloaded once, just type /rl in the chat.
+```
