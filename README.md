@@ -48,7 +48,7 @@ This is my ElvUI Profile String.
 
 
 [![ElvUI](https://img.shields.io/badge/Addon-ElvUI-orange)](https://www.tukui.org/download.php?ui=elvui)
-[![mMediaTag](https://img.shields.io/badge/Addon-mMediaTag-green)](https://addons.wago.io/addons/mmediatag)
+[![mMediaTag](https://img.shields.io/badge/Addon-mMediaTag-blueviolet)](https://addons.wago.io/addons/mmediatag)
 [![AddonSkins](https://img.shields.io/badge/Addon-AddonSkins-blue)](https://addons.wago.io/addons/addonskins)
 [![ProjectAzilroka](https://img.shields.io/badge/Addon-ProjectAzilroka-blue)](https://addons.wago.io/addons/projectazilroka)
 [![FCT](https://img.shields.io/badge/Addon-FCT-red)](https://www.tukui.org/addons.php?id=137)
