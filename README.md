@@ -1,5 +1,3 @@
-# MaUI v5 - ElvUI Profile
-
 ![scr1](https://github.com/mBlinkii/MaUI-v5-ElvUI-Profile-Strings/blob/main/Screenshots/mauilogo.png)
 
 [DE]
