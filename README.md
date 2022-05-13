@@ -48,13 +48,14 @@ This is my ElvUI Profile String.
 
 
 [![ElvUI](https://img.shields.io/badge/Addon-ElvUI-orange)](https://www.tukui.org/download.php?ui=elvui)
-[![mMediaTag](https://img.shields.io/badge/Addon-mMediaTag-green)](https://addons.wago.io/addons/mmediatag)
+[![mMediaTag](https://img.shields.io/badge/Addon-mMediaTag-blueviolet)](https://addons.wago.io/addons/mmediatag)
 [![AddonSkins](https://img.shields.io/badge/Addon-AddonSkins-blue)](https://addons.wago.io/addons/addonskins)
 [![ProjectAzilroka](https://img.shields.io/badge/Addon-ProjectAzilroka-blue)](https://addons.wago.io/addons/projectazilroka)
 [![FCT](https://img.shields.io/badge/Addon-FCT-red)](https://www.tukui.org/addons.php?id=137)
 
 
 ## Installation
+[![MaUI v5](https://img.shields.io/badge/Profile-MaUIv5-blueviolet)](https://github.com/mBlinkii/MaUI-v5-ElvUI-Profile-Strings/tree/main/Maui%20v5%20Strings)
 
 [DE] Import reihen folge
 
@@ -77,3 +78,7 @@ This is my ElvUI Profile String.
 
   5. After iporting the profiles, the interface must be reloaded once, just type /rl in the chat.
 ```
+
+## Screenshots
+![scr1](https://github.com/mBlinkii/MaUI-v5-ElvUI-Profile-Strings/blob/main/Screenshots/2022-05-08%20(1).png)
+![scr2](https://github.com/mBlinkii/MaUI-v5-ElvUI-Profile-Strings/blob/main/Screenshots/2022-05-12.png)
