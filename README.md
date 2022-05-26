@@ -72,6 +72,14 @@ This is my ElvUI Profile String.
   5. Nach dem Iprortieren der Profile, muss das Interface einmal neu geladen werden, dazu muss einfach /rl im Chat eingegeben werden.
 ```
 
+Alles von 1-4 wird in ELvUi unter Profil Importieren, einzeln und nacheinander eigefügt und Importiert.
+
+Was bedueten die einzelnen Profile?
+- 1. Profil = Das ist das Hauptprofil, dieses ist nicht Komplett ohne das Global Profile.
+- 2. Namensplaketten = Stil Filter für die Namensplaketten und ist Optional, z. B. Farbige M+ Gegner, Hervorhebung von Bossen usw...
+- 3. Global = Globale Einstellungen für das Hautprofile, z. B. für die Dockleiste
+- 3. Privat = erweiterte Einstellungen für das Hauptprofile, Texturen und Farben
+
 [EN] Import series sequence
 
 ```bash
@@ -82,6 +90,13 @@ This is my ElvUI Profile String.
 
   5. After iporting the profiles, the interface must be reloaded once, just type /rl in the chat.
 ```
+Everything from 1-4 is inserted and imported in ELvUi under Import Profile, one by one.
+
+What do the individual profiles mean?
+- 1. Profile = This is the main profile, it is not complete without the Global Profile.
+- 2. Nameplates = style filter for the Nameplates  and is optional, e.g. colored M+ enemies, highlighting of bosses etc....
+- 3. Global = global settings for the skin profile, e.g. for the dock bar.
+- 3. Private = advanced settings for the main profile, textures and colors.
 
 ## Screenshots
 ![scr1](https://github.com/mBlinkii/MaUI-v5-ElvUI-Profile-Strings/blob/main/Screenshots/2022-05-08%20(1).png)
