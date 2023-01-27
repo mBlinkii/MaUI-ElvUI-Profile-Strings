@@ -52,7 +52,6 @@ Diese Addons werden Benötigt.
 ## Installation
 Import reihen folge
 
- - [![WarpDeplete](https://img.shields.io/github/downloads/mBlinkii/MaUI-ElvUI-Profile-Strings/total?color=blueviolet&label=MaUI&style=plastic)](https://www.curseforge.com/wow/addons/warpdeplete)
 
 ```bash
   1. Profil
