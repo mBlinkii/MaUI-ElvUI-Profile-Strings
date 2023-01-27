@@ -7,8 +7,6 @@
 Hier habe ich mein komplettes EvlUI-Profil für euch zusammengestellt.
 
 ## Features
-
-[DE]
  - Benutzerdefinierte Dockleiste mit nützlichen Funktionen.
  - Berufsmenü.
  - Das Ziel einer Einheit wird auf dem Namensplaketten angezeigt.
@@ -75,4 +73,3 @@ Was bedueten die einzelnen Profile?
 ![scr2](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/2023-01-22%20(1).png)
 ![scr3](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/2023-01-22%20(4).png)
 ![scr4](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/2023-01-22%20(6).png)
-![scr5](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/2023-01-24%20(3).png)
