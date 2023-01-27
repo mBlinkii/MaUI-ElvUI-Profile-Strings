@@ -6,7 +6,7 @@
 
 Here I have put together my complete EvlUI profile for you.
 
-[DE] - [Deutsche Version der Anleitung](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Readme_DE.md) - [DE]
+# [DE] - [Deutsche Version der Anleitung](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Readme_DE.md) - [DE]
 
 ## Features
  - Custom dock bar with useful functions.
