@@ -60,13 +60,23 @@ These addons are required.
  - [WoW](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/MaUI%20Blizz.txt)
 
 ### Addons
- - [DBM](xxx)
- - [Details](xxx)
+ - [DBM](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/DBM.txt)
+ - [Details](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/Details.txt)
 
 ### Only Nameplate Filters
  - [Only the M+ Prio Filters](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/M%2B%20Filter%20for%20NP/M%2B%20Prio%20Namplate%20Filter.txt)
  - [Only the M+ Affix Filters](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/M%2B%20Filter%20for%20NP/M%2B%20Affix%20Filter.txt)
  - [DH Fooder of the Flam Filter](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/M%2B%20Filter%20for%20NP/DH%20Fooder%20of%20the%20Flame.txt)
+ - [DF Dungeon Bosses](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/M%2B%20Filter%20for%20NP/DF%20Dungeon%20Bosses.txt)
+
+## Nameplate priority Colors
+```bash
+ 1. Pink High priority
+ 2. Dark Blue 2. priority
+ 3. Purple 3. priority
+ 4. Light Blue high HP
+ 5. Brown special (like totems)
+```
 
 ## Installation
 Import series sequence

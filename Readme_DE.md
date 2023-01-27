@@ -27,27 +27,56 @@ Hier habe ich mein komplettes EvlUI-Profil für euch zusammengestellt.
  - Angepasste Klassenfarben mit einem schönen Farbverlauf.
  - und viele weiter erleichtrungen und verbesserungen.
 
-## Addons
+# Addons
 
 Diese Addons werden Benötigt.
 
-# Minimal Anforderungen:
+### Minimal Anforderungen:
  - [![ElvUI](https://img.shields.io/badge/Addon-ElvUI-orange)](https://www.tukui.org/download.php?ui=elvui)
  - [![mMediaTag](https://img.shields.io/badge/Addon-mMediaTag-blueviolet)](https://www.curseforge.com/wow/addons/elvui_mmediatag)
 
-# Optimal Anforderungen:
+### Optimal Anforderungen:
  - [![Eltruism](https://img.shields.io/badge/Addon-Eltruism-blue)](https://www.curseforge.com/wow/addons/elvui-eltruism)
  - [![AddonSkins](https://img.shields.io/badge/Addon-AddonSkins-blue)](https://www.curseforge.com/wow/addons/addonskins)
  - [![ProjectAzilroka](https://img.shields.io/badge/Addon-ProjectAzilroka-blue)](https://www.curseforge.com/wow/addons/projectazilroka)
  - [![FCT](https://img.shields.io/badge/Addon-FCT-red)](https://www.tukui.org/addons.php?id=137)
 
-# Optional:
+### Optional:
  - [![Details](https://img.shields.io/badge/Addon-Details-lightgrey)](https://www.curseforge.com/wow/addons/details)
  - [![DBM](https://img.shields.io/badge/Addon-DBM-brightgreen)](https://www.curseforge.com/wow/addons/deadly-boss-mods)
  - [![WarpDeplete](https://img.shields.io/badge/Addon-WarpDeplete-red)](https://www.curseforge.com/wow/addons/warpdeplete)
 
+# Profile
 
-## Installation
+### ElvUI
+ - [Profil Tank/DD](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/MaUI%20v6%20TANK-DD.txt)
+ - [Gloabal](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/MaUI%20v6%20Global.txt)
+ - [Privat](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/MaUI%20v6%20Private.txt)
+ - [Namensplaketten](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/MaUI%20v6%20Nameplate%20Filter.txt)
+
+### WoW
+ - [WoW](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/MaUI%20Blizz.txt)
+
+### Addons
+ - [DBM](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/DBM.txt)
+ - [Details](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/Details.txt)
+
+### Nur Namensplaketten Filter
+ - [Nur M+ Prio Filter](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/M%2B%20Filter%20for%20NP/M%2B%20Prio%20Namplate%20Filter.txt)
+ - [Nur M+ Affix Filter](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/M%2B%20Filter%20for%20NP/M%2B%20Affix%20Filter.txt)
+ - [DH Fooder of the Flam Filter](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/M%2B%20Filter%20for%20NP/DH%20Fooder%20of%20the%20Flame.txt)
+ - [DF Dungeon Bosse](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/M%2B%20Filter%20for%20NP/DF%20Dungeon%20Bosses.txt)
+
+## Nameplate priority Colors
+```bash
+ 1. Pink hohe Priorität
+ 2. Dunkel Blau 2. Priorität
+ 3. Lila 3. priorPrioritätity
+ 4. Hell Blau hohe HP
+ 5. Braun Special (Totems)
+```
+
+# Installation
 Import reihen folge
 
 ```bash
