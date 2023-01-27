@@ -1,4 +1,6 @@
+<p align="center">
 ![scr1](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/mauilogo.png)
+</p>
 
 # MaUI v6 - ElvUI Profile von Blinkii
 
