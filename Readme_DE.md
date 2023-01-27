@@ -67,7 +67,7 @@ Diese Addons werden Benötigt.
  - [DH Fooder of the Flam Filter](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/M%2B%20Filter%20for%20NP/DH%20Fooder%20of%20the%20Flame.txt)
  - [DF Dungeon Bosse](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/M%2B%20Filter%20for%20NP/DF%20Dungeon%20Bosses.txt)
 
-## Nameplate priority Colors
+## Namesplaketten Prioritäten Farben
 ```bash
  1. Pink hohe Priorität
  2. Dunkel Blau 2. Priorität
