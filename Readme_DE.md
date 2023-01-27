@@ -36,12 +36,15 @@ Diese Addons werden Benötigt.
  - [![mMediaTag](https://img.shields.io/badge/Addon-mMediaTag-blueviolet)](https://www.curseforge.com/wow/addons/elvui_mmediatag)
 
 # Optimal Anforderungen:
+ - [![Eltruism](https://img.shields.io/badge/Addon-Eltruism-blue)](https://www.curseforge.com/wow/addons/elvui-eltruism)
  - [![AddonSkins](https://img.shields.io/badge/Addon-AddonSkins-blue)](https://www.curseforge.com/wow/addons/addonskins)
- - [![Eltruism](https://img.shields.io/badge/Addon-AddonSkins-blue)](https://www.curseforge.com/wow/addons/elvui-eltruism)
  - [![ProjectAzilroka](https://img.shields.io/badge/Addon-ProjectAzilroka-blue)](https://www.curseforge.com/wow/addons/projectazilroka)
  - [![FCT](https://img.shields.io/badge/Addon-FCT-red)](https://www.tukui.org/addons.php?id=137)
 
 # Optional:
+ - [![Details](https://img.shields.io/badge/Addon-Details-lightgrey)](https://www.curseforge.com/wow/addons/details)
+ - [![DBM](https://img.shields.io/badge/Addon-DBM-brightgreen)](https://www.curseforge.com/wow/addons/deadly-boss-mods)
+ - [![WarpDeplete](https://img.shields.io/badge/Addon-Details-yellow)](https://www.curseforge.com/wow/addons/warpdeplete)
 
 
 ## Installation
