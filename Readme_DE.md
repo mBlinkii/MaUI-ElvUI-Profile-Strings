@@ -1,8 +1,4 @@
 <p align="center">
-![scr1](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/mauilogo.png)
-</p>
-
-<p align="center">
   <img width="800" height="400" src="https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/mauilogo.png">
 </p>
 
@@ -50,14 +46,13 @@ Diese Addons werden Benötigt.
 # Optional:
  - [![Details](https://img.shields.io/badge/Addon-Details-lightgrey)](https://www.curseforge.com/wow/addons/details)
  - [![DBM](https://img.shields.io/badge/Addon-DBM-brightgreen)](https://www.curseforge.com/wow/addons/deadly-boss-mods)
- - [![WarpDeplete](https://img.shields.io/badge/Addon-Details-yellow)](https://www.curseforge.com/wow/addons/warpdeplete)
+ - [![WarpDeplete](https://img.shields.io/badge/Addon-WarpDeplete-red)](https://www.curseforge.com/wow/addons/warpdeplete)
 
 
 ## Installation
-[![MaUI v5](https://img.shields.io/badge/Profile-MaUIv5-blueviolet)](https://github.com/mBlinkii/MaUI-v5-ElvUI-Profile-Strings/tree/main/Maui%20v5%20Strings)
-[![MaUI v5](https://img.shields.io/badge/Profile-MaUIv5Classic-yellow)](https://github.com/mBlinkii/MaUI-v5-ElvUI-Profile-Strings/tree/main/MaUI%20v5%20Classic%20Strings)
+Import reihen folge
 
-[DE] Import reihen folge
+https://img.shields.io/github/downloads/mBlinkii/MaUI-ElvUI-Profile-Strings/total?color=blueviolet&label=MaUI&style=plastic
 
 ```bash
   1. Profil
@@ -75,24 +70,6 @@ Was bedueten die einzelnen Profile?
 - Namensplaketten = Stil Filter für die Namensplaketten und ist Optional, z. B. Farbige M+ Gegner, Hervorhebung von Bossen usw...
 - Global = Globale Einstellungen für das Hautprofile, z. B. für die Dockleiste
 - Privat = erweiterte Einstellungen für das Hauptprofile, Texturen und Farben
-
-[EN] Import series sequence
-
-```bash
-  1. Profile
-  2. Nameplates
-  3. Global
-  4. Privat
-
-  5. After iporting the profiles, the interface must be reloaded once, just type /rl in the chat.
-```
-Everything from 1-4 is inserted and imported in ELvUi under Import Profile, one by one.
-
-What do the individual profiles mean?
-- Profile = This is the main profile, it is not complete without the Global Profile.
-- Nameplates = style filter for the Nameplates  and is optional, e.g. colored M+ enemies, highlighting of bosses etc....
-- Global = global settings for the skin profile, e.g. for the dock bar.
-- Private = advanced settings for the main profile, textures and colors.
 
 ## Screenshots
 ![scr1](https://github.com/mBlinkii/MaUI-v5-ElvUI-Profile-Strings/blob/main/Screenshots/2022-05-08%20(1).png)
