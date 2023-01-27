@@ -29,38 +29,44 @@ Here I have put together my complete EvlUI profile for you.
  - Adjusted class colors with a nice gradient.
  - and many more facilitrations and improvements.
 
-## Addons
+# Addons
 
 These addons are required.
 
-# Minimum requirements:
+### Minimum requirements:
  - [![ElvUI](https://img.shields.io/badge/Addon-ElvUI-orange)](https://www.tukui.org/download.php?ui=elvui)
  - [![mMediaTag](https://img.shields.io/badge/Addon-mMediaTag-blueviolet)](https://www.curseforge.com/wow/addons/elvui_mmediatag)
 
-# Optimal requirements:
+### Optimal requirements:
  - [![Eltruism](https://img.shields.io/badge/Addon-Eltruism-blue)](https://www.curseforge.com/wow/addons/elvui-eltruism)
  - [![AddonSkins](https://img.shields.io/badge/Addon-AddonSkins-blue)](https://www.curseforge.com/wow/addons/addonskins)
  - [![ProjectAzilroka](https://img.shields.io/badge/Addon-ProjectAzilroka-blue)](https://www.curseforge.com/wow/addons/projectazilroka)
  - [![FCT](https://img.shields.io/badge/Addon-FCT-red)](https://www.tukui.org/addons.php?id=137)
 
-# Optional:
+### Optional:
  - [![Details](https://img.shields.io/badge/Addon-Details-lightgrey)](https://www.curseforge.com/wow/addons/details)
  - [![DBM](https://img.shields.io/badge/Addon-DBM-brightgreen)](https://www.curseforge.com/wow/addons/deadly-boss-mods)
  - [![WarpDeplete](https://img.shields.io/badge/Addon-WarpDeplete-red)](https://www.curseforge.com/wow/addons/warpdeplete)
 
-## Profiles
- - [Profile Tank/DD](xxx)
- - [Gloabal](xxx)
- - [Private](xxx)
- - [Nameplates](xxx)
- - [WoW](xxx)
+# Profiles
 
+### ElvUI
+ - [Profile Tank/DD](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/MaUI%20v6%20TANK-DD.txt)
+ - [Gloabal](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/MaUI%20v6%20Global.txt)
+ - [Private](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/MaUI%20v6%20Private.txt)
+ - [Nameplates](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/MaUI%20v6%20Nameplate%20Filter.txt)
+
+### WoW
+ - [WoW](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/MaUI%20Blizz.txt)
+
+### Addons
  - [DBM](xxx)
  - [Details](xxx)
 
- - [Only the M+ Prio Filters](xxx)
- - [Only the M+ Affix Filters](xxx)
- - [DH Fooder of the Flam Filter](xxx)
+### Only Nameplate Filters
+ - [Only the M+ Prio Filters](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/M%2B%20Filter%20for%20NP/M%2B%20Prio%20Namplate%20Filter.txt)
+ - [Only the M+ Affix Filters](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/M%2B%20Filter%20for%20NP/M%2B%20Affix%20Filter.txt)
+ - [DH Fooder of the Flam Filter](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/M%2B%20Filter%20for%20NP/DH%20Fooder%20of%20the%20Flame.txt)
 
 ## Installation
 Import series sequence
