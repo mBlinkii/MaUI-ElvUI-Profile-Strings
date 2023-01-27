@@ -48,13 +48,26 @@ These addons are required.
  - [![DBM](https://img.shields.io/badge/Addon-DBM-brightgreen)](https://www.curseforge.com/wow/addons/deadly-boss-mods)
  - [![WarpDeplete](https://img.shields.io/badge/Addon-WarpDeplete-red)](https://www.curseforge.com/wow/addons/warpdeplete)
 
+## Profiles
+ - [Profile Tank/DD](xxx)
+ - [Gloabal](xxx)
+ - [Private](xxx)
+ - [Nameplates](xxx)
+ - [WoW](xxx)
+
+ - [DBM](xxx)
+ - [Details](xxx)
+
+ - [Only the M+ Prio Filters](xxx)
+ - [Only the M+ Affix Filters](xxx)
+ - [DH Fooder of the Flam Filter](xxx)
 
 ## Installation
 Import series sequence
 
 ```bash
   1. Profil
-  2. Namansplaketten
+  2. Namansplates
   3. Global
   4. Privat
   5. WoW Interface string (in interface edit mode of WoW import).
