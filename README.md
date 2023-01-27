@@ -1,104 +1,78 @@
 <p align="center">
-![scr1](https://github.com/mBlinkii/MaUI-v5-ElvUI-Profile-Strings/blob/main/Screenshots/mauilogo.png)
+  <img width="800" height="400" src="https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/mauilogo.png">
 </p>
 
-# MaUI v5 - ElvUI Profile
+# MaUI v6 - ElvUI Profile by Blinkii
 
-[DE]
-Dies ist mein ElvUI Profile String.
+Here I have put together my complete EvlUI profile for you.
 
-[EN]
-This is my ElvUI Profile String.
+[DE] [Deutsche Version der Anleitung](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Readme_DE.md)[DE]
+
 ## Features
-
-[DE]
- - Selbsterstellte Dock Leiste mit nützlichen Funktionen.
- - Berufsmenü.
- - Das Ziel einer Einheit wird auf der Namensplakette angezeigt.
- - Gesundheit text der Gruppeneinheitsfenster Wechselt zwischen max. Leben und Prozentanzeige im Kampf
- - Mausover Todes anzeige auf den Gruppenfenstern (Anzahl der Tode eines Mitspielers)
- - Rare/Elite/Boss Gegner werden besonders hervorgehoben (Farbe des Textes ändert sich)
- - Fraktionssymbol und PVP Text wird angezeigt, wenn der Mitspielers PVP Markiert ist.
- - Questlog wird geskinnt
- - Anzeige der wichtigsten Abzeichen, oben links.
- - Dungeon Bosse Werden in den Shadowlands Dungeons besonders hervorgehoben.
- - M+ Erleichterung durch farblicher Hervorhebung von Verschiedensachen.
- - Wichtige Dungeon Gegner Werden farblich hervorgehoben
- - Die Affix in einer M+ Urh/Vy/Wo werden farblich Hervorgehoben
- - Inspirierende Gegner werden hervorgehoben
- - Gegner, die in blutig stehen, werden hervorgehoben
-
- [EN]
- - Self created dock bar with useful functions.
- - Profession menu.
- - The target of a unit is displayed on the Nameplates.
- - Health text of group unit switches between max life and percentage display in combat.
- - Mouse over death indicator on the group windows (number of deaths of a teammate)
- - Rare/Elite/Boss enemies are highlighted (color of text changes)
- - Faction icon and PVP text is displayed when the teammate is PVP marked.
+ - Custom dock bar with useful functions.
+ - Professions menu.
+ - The target of a unit is displayed on the name badge.
+ - Health text of groups Switches between max life and percentage display in combat.
+ - Mouseover death indicator in the group windows (number of deaths of a teammate).
+ - Rare/Elite/Boss enemies are highlighted (text color changes)
+ - Faction icon and PVP text is displayed if the teammate is marked as PVP or belongs to the Other Faction.
  - Quest log is skinned
- - Display of the most important Currencys, on top left.
- - Dungeon bosses Are highlighted in Shadowlands dungeons.
- - M+ color highlighting of miscellaneous units.
- - Important dungeon units are highlighted in color.
- - The affixes in a M+ Urh/Vy/Wo will be highlighted.
- - Inspiring units are highlighted
- - Units standing in sanguino are highlighted
+ - Display of the most important badges, top left
+ - Dungeon bosses are highlighted inDF dungeons.
+ - M+ Facilitated by color highlighting of name badges.
+ - Important dungeon bosses are highlighted in color.
+ - Affixes such as Inspiring/Bloody or Spiteful will be highlighted in color.
+ - New Rolene icons for tank/DD/healer.
+ - New in combat icon.
+ - New dungeon difficulty indicator on minimap.
+ - Castbar color changes if your interrupt spell is on CD or finishes in time.
+ - Adjusted class colors with a nice gradient.
+ - and many more facilitrations and improvements.
+
 ## Addons
 
-[DE] Diese Addons werden Benötigt.
+These addons are required.
 
-[EN] These addons are required.
+# Minimum requirements:
+ - [![ElvUI](https://img.shields.io/badge/Addon-ElvUI-orange)](https://www.tukui.org/download.php?ui=elvui)
+ - [![mMediaTag](https://img.shields.io/badge/Addon-mMediaTag-blueviolet)](https://www.curseforge.com/wow/addons/elvui_mmediatag)
 
+# Optimal requirements:
+ - [![Eltruism](https://img.shields.io/badge/Addon-Eltruism-blue)](https://www.curseforge.com/wow/addons/elvui-eltruism)
+ - [![AddonSkins](https://img.shields.io/badge/Addon-AddonSkins-blue)](https://www.curseforge.com/wow/addons/addonskins)
+ - [![ProjectAzilroka](https://img.shields.io/badge/Addon-ProjectAzilroka-blue)](https://www.curseforge.com/wow/addons/projectazilroka)
+ - [![FCT](https://img.shields.io/badge/Addon-FCT-red)](https://www.tukui.org/addons.php?id=137)
 
-[![ElvUI](https://img.shields.io/badge/Addon-ElvUI-orange)](https://www.tukui.org/download.php?ui=elvui)
-[![mMediaTag](https://img.shields.io/badge/Addon-mMediaTag-blueviolet)](https://addons.wago.io/addons/mmediatag)
-[![AddonSkins](https://img.shields.io/badge/Addon-AddonSkins-blue)](https://addons.wago.io/addons/addonskins)
-[![ProjectAzilroka](https://img.shields.io/badge/Addon-ProjectAzilroka-blue)](https://addons.wago.io/addons/projectazilroka)
-[![FCT](https://img.shields.io/badge/Addon-FCT-red)](https://www.tukui.org/addons.php?id=137)
+# Optional:
+ - [![Details](https://img.shields.io/badge/Addon-Details-lightgrey)](https://www.curseforge.com/wow/addons/details)
+ - [![DBM](https://img.shields.io/badge/Addon-DBM-brightgreen)](https://www.curseforge.com/wow/addons/deadly-boss-mods)
+ - [![WarpDeplete](https://img.shields.io/badge/Addon-WarpDeplete-red)](https://www.curseforge.com/wow/addons/warpdeplete)
 
 
 ## Installation
-[![MaUI v5](https://img.shields.io/badge/Profile-MaUIv5-blueviolet)](https://github.com/mBlinkii/MaUI-v5-ElvUI-Profile-Strings/tree/main/Maui%20v5%20Strings)
-[![MaUI v5](https://img.shields.io/badge/Profile-MaUIv5Classic-yellow)](https://github.com/mBlinkii/MaUI-v5-ElvUI-Profile-Strings/tree/main/MaUI%20v5%20Classic%20Strings)
-
-[DE] Import reihen folge
+Import series sequence
 
 ```bash
   1. Profil
   2. Namansplaketten
   3. Global
   4. Privat
-
-  5. Nach dem Iprortieren der Profile, muss das Interface einmal neu geladen werden, dazu muss einfach /rl im Chat eingegeben werden.
+  5. WoW Interface string (in interface edit mode of WoW import).
+  6. after importing the profiles, the interface must be reloaded once, just type /rl in the chat.
 ```
-
-Alles von 1-4 wird in ELvUi unter Profil Importieren, einzeln und nacheinander eigefügt und Importiert.
-
-Was bedueten die einzelnen Profile?
-- Profil = Das ist das Hauptprofil, dieses ist nicht Komplett ohne das Global Profile.
-- Namensplaketten = Stil Filter für die Namensplaketten und ist Optional, z. B. Farbige M+ Gegner, Hervorhebung von Bossen usw...
-- Global = Globale Einstellungen für das Hautprofile, z. B. für die Dockleiste
-- Privat = erweiterte Einstellungen für das Hauptprofile, Texturen und Farben
-
-[EN] Import series sequence
-
-```bash
-  1. Profile
-  2. Nameplates
-  3. Global
-  4. Privat
-
-  5. After iporting the profiles, the interface must be reloaded once, just type /rl in the chat.
-```
-Everything from 1-4 is inserted and imported in ELvUi under Import Profile, one by one.
 
 What do the individual profiles mean?
-- Profile = This is the main profile, it is not complete without the Global Profile.
-- Nameplates = style filter for the Nameplates  and is optional, e.g. colored M+ enemies, highlighting of bosses etc....
-- Global = global settings for the skin profile, e.g. for the dock bar.
-- Private = advanced settings for the main profile, textures and colors.
+- Profile = This is the main profile, this is not complete without the Global Profile.
+- Nameplates = Style filter for the name badges and is optional, e.g. colored M+ enemies, highlighting bosses etc....
+- Global = Global settings for the skin profile, e.g. for the dock bar.
+- Private = advanced settings for the main profile, textures and colors
+- WoW Interface = Adjusts the position of the quest log and the talking head frame.
+
+Translated with www.DeepL.com/Translator (free version)
 
 ## Screenshots
-![scr1](https://github.com/mBlinkii/MaUI-v5-ElvUI-Profile-Strings/blob/main/Screenshots/2022-05-08%20(1).png)
-![scr2](https://github.com/mBlinkii/MaUI-v5-ElvUI-Profile-Strings/blob/main/Screenshots/2022-05-12.png)
+![scr1](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/2023-01-18%20(2).png)
+![scr2](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/2023-01-22%20(1).png)
+![scr3](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/2023-01-22%20(4).png)
+![scr4](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/2023-01-22%20(6).png)
+![scr5](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/2023-01-24%20(3).png)
