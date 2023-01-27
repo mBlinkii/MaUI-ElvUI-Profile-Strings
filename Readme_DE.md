@@ -58,17 +58,18 @@ Import reihen folge
   2. Namansplaketten
   3. Global
   4. Privat
-
-  5. Nach dem Iprortieren der Profile, muss das Interface einmal neu geladen werden, dazu muss einfach /rl im Chat eingegeben werden.
+  5. WoW Interface Import String (im Interface Bearbeitungsmodus von WoW Importieren)
+  6. Nach dem Iprortieren der Profile, muss das Interface einmal neu geladen werden, dazu muss einfach /rl im Chat eingegeben werden.
 ```
 
-Alles von 1-4 wird in ELvUi unter Profil Importieren, einzeln und nacheinander eigefügt und Importiert.
+Alles von 1-4 wird in ElvUI unter Profil Importieren, einzeln und nacheinander eigefügt und Importiert.
 
 Was bedueten die einzelnen Profile?
-- Profil = Das ist das Hauptprofil, dieses ist nicht Komplett ohne das Global Profile.
+- Profil = Das ist das Hauptprofil, dieses ist nicht Komplett ohne das Global Profil.
 - Namensplaketten = Stil Filter für die Namensplaketten und ist Optional, z. B. Farbige M+ Gegner, Hervorhebung von Bossen usw...
 - Global = Globale Einstellungen für das Hautprofile, z. B. für die Dockleiste
 - Privat = erweiterte Einstellungen für das Hauptprofile, Texturen und Farben
+- WoW Interface = Passt die Position vom Questlog und dem Sprechenkopf Fenster an
 
 ## Screenshots
 ![scr1](https://github.com/mBlinkii/MaUI-v5-ElvUI-Profile-Strings/blob/main/Screenshots/2022-05-08%20(1).png)
