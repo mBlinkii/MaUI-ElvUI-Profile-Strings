@@ -2,6 +2,10 @@
 ![scr1](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/mauilogo.png)
 </p>
 
+<p align="center">
+  <img width="800" height="400" src="https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/mauilogo.png">
+</p>
+
 # MaUI v6 - ElvUI Profile von Blinkii
 
 Hier habe ich mein komplettes EvlUI-Profil für euch zusammengestellt.
