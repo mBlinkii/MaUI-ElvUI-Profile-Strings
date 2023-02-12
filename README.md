@@ -4,7 +4,7 @@
 
 # MaUI v6 - ElvUI Profile by Blinkii
 
-Here I have put together my complete EvlUI profile for you.
+Here I have put together my complete EvlUI profile for you. This profile is for 1080p, for other resolutions, the scaling and position of the elment must be adjusted.
 
 # [DE] - [Deutsche Version der Anleitung](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Readme_DE.md) - [DE]
 

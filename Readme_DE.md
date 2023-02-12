@@ -4,7 +4,7 @@
 
 # MaUI v6 - ElvUI Profile von Blinkii
 
-Hier habe ich mein komplettes EvlUI-Profil für euch zusammengestellt.
+Hier habe ich mein komplettes EvlUI-Profil für euch zusammengestellt. Diese Profil ist für ein Full HD 1080p Auflösung gedacht. Bei anderen Auflösungen muss die Skallierung und die Position der Einzelnen Element angepasst werden.
 
 ## Features
  - Benutzerdefinierte Dockleiste mit nützlichen Funktionen.
