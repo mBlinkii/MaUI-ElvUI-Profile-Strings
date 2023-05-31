@@ -99,6 +99,9 @@ What do the individual profiles mean?
 - Private = advanced settings for the main profile, textures and colors
 - WoW Interface = Adjusts the position of the quest log and the talking head frame.
 
+## You need help?
+[![Discord](https://img.shields.io/badge/discord-MaUI-blueviolet.svg?logo=discord)](https://discord.gg/AE9XebMU49)
+
 ## Screenshots
 ![scr1](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/2023-01-18%20(2).png)
 ![scr2](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/2023-01-22%20(1).png)
