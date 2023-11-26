@@ -73,7 +73,6 @@ https://discord.gg/AE9XebMU49
 
 ## Nameplate priority Colors
 ```bash
-# Description:
 - pink = 1st prio
 - blue = 2nd prio
 - purple = 3rd prio
