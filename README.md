@@ -8,8 +8,12 @@ Here I have put together my complete EvlUI profile for you. This profile is for 
 
 # [DE] - [Deutsche Version der Anleitung](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Readme_DE.md) - [DE]
 
-## Changelog:
-- https://discord.com/channels/209244641537556480/1066797040811643010/1172564817396117625
+## Changelog
+- Update all Profiles for the new Version of mMediaTag
+- Fixed broken TAGs
+- Add Portraits
+- New Databar Style
+- Pre Update of M+ Filters (Name says S3 but its actually for S2) there comes a seperate Update.
 
 ## Features:
 - Self created dock bar with useful functions.
