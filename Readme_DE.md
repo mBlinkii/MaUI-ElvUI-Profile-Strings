@@ -2,9 +2,16 @@
   <img width="800" height="400" src="https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/mauilogo.png">
 </p>
 
-# MaUI v6 - ElvUI Profile von Blinkii
+# MaUI v6.5 [Tank/DD/Heal] [1080] - Update 10.11.2023]
 
-Hier habe ich mein komplettes EvlUI-Profil für euch zusammengestellt. Diese Profil ist für ein Full HD 1080p Auflösung gedacht. Bei anderen Auflösungen muss die Skallierung und die Position der Einzelnen Element angepasst werden.
+Hier habe ich mein komplettes EvlUI-Profil für euch zusammengestellt. Diese Profil ist für ein Full HD 1080p Auflösung gedacht. Bei anderen Auflösungen muss die Skalierung und die Position der Einzelnen Element angepasst werden.
+
+## Changelog
+- Alle Profile für die neue Version von mMediaTag aktualisiert
+- Fehler an den TAGs behoben
+- Portraits hinzugefügt
+- Neue Dock Leiste im still von XIV
+- Pre Update der Namensplaketten Filter für S3
 
 ## Features
  - Benutzerdefinierte Dockleiste mit nützlichen Funktionen.
@@ -14,7 +21,7 @@ Hier habe ich mein komplettes EvlUI-Profil für euch zusammengestellt. Diese Pro
  - Mouseover Todesanzeige in den Gruppenfenstern (Anzahl der Tode eines Mitspielers)
  - Rare/Elite/Boss Gegner werden besonders hervorgehoben (Textfarbe ändert sich)
  - Fraktionssymbol und PVP-Text wird angezeigt, wenn der Mitspieler als PVP markiert ist oder der Anderen Fraktion angehört.
- - Questlog wird geskinnt
+ - Questlog Skin
  - Anzeige der wichtigsten Abzeichen, links oben
  - Dungeonbosse werden in den Dungeons vonDF besonders hervorgehoben.
  - M+ Erleichterung durch farbliche Hervorhebung der Namensplaketten.
@@ -25,6 +32,7 @@ Hier habe ich mein komplettes EvlUI-Profil für euch zusammengestellt. Diese Pro
  - Neue Dungeon Schwierigkeitsanzeige an der Minimap.
  - Die Farbe der Zauberleisten ändert sich, wenn euer Unterbrechungszauber auf CD ist oder rechtzeitig fertig wird.
  - Angepasste Klassenfarben mit einem schönen Farbverlauf.
+ - Portraits für diverse Einheiten Fenster
  - und viele weiter erleichtrungen und verbesserungen.
 
 # Addons
@@ -32,83 +40,53 @@ Hier habe ich mein komplettes EvlUI-Profil für euch zusammengestellt. Diese Pro
 Diese Addons werden Benötigt.
 
 ### Minimal Anforderungen:
- - [![ElvUI](https://img.shields.io/badge/Addon-ElvUI-orange)](https://www.tukui.org/download.php?ui=elvui)
- - [![mMediaTag](https://img.shields.io/badge/Addon-mMediaTag-blueviolet)](https://www.curseforge.com/wow/addons/elvui_mmediatag)
+- [![ElvUI](https://img.shields.io/badge/Addon-ElvUI-orange)](https://www.tukui.org/download.php?ui=elvui)
+- [![mMediaTag](https://img.shields.io/badge/Addon-mMediaTag-blueviolet)](https://www.curseforge.com/wow/addons/elvui_mmediatag)
+- [![Eltruism](https://img.shields.io/badge/Addon-Eltruism-blue)](https://www.curseforge.com/wow/addons/elvui-eltruism)
 
-### Optimal Anforderungen (nicht notwendig):
- - [![Eltruism](https://img.shields.io/badge/Addon-Eltruism-blue)](https://www.curseforge.com/wow/addons/elvui-eltruism)
+### Optional (nicht notwendig):
  - [![AddonSkins](https://img.shields.io/badge/Addon-AddonSkins-blue)](https://www.curseforge.com/wow/addons/addonskins)
  - [![ProjectAzilroka](https://img.shields.io/badge/Addon-ProjectAzilroka-blue)](https://www.curseforge.com/wow/addons/projectazilroka)
  - [![FCT](https://img.shields.io/badge/Addon-FCT-red)](https://www.tukui.org/addons.php?id=137)
-
-### Optional (nicht notwendig):
  - [![Details](https://img.shields.io/badge/Addon-Details-lightgrey)](https://www.curseforge.com/wow/addons/details)
  - [![DBM](https://img.shields.io/badge/Addon-DBM-brightgreen)](https://www.curseforge.com/wow/addons/deadly-boss-mods)
  - [![WarpDeplete](https://img.shields.io/badge/Addon-WarpDeplete-red)](https://www.curseforge.com/wow/addons/warpdeplete)
 
-# Profile
+### Important:
+- Lösche alle alten Namensplaketten Filter und verwende die neuen - ![filter](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/filter.png)
+- Alle Änderungen an den MaUI-Profilen gehen verloren, wenn diese Profile importiert wird. Sichern das alte Profil!
 
-### ElvUI
- - [Profile Tank/DD](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/MaUI%20v6%20TANK-DD.txt)
- - [Profile Heal Center](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/MaUI%20v6%20Heal%20Center.txt)
- - [Profile Heal Left](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/MaUI%20v6%20Heal%20Left.txt)
- - [Gloabal](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/MaUI%20v6%20Global.txt)
- - [Private](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/MaUI%20v6%20Private.txt)
- - [Namensplaketten](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/MaUI%20v6%20Nameplate%20Filter.txt)
+## How to Import:
+1. Wähle ein Profil aus `MaUI [v6.5] Tank - DD` or `MaUI [v6.5] Heal Center` or `MaUI [v6.5] Heal Left`
+2. Kopiere den Profil-, Private-, Global- and Nameplate- String in das jeweilige Feld in ElvUI `ElvUI > Profile > Import` - ![elvui](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/elvui.png)
+3. Klick auf Importieren und Neuladen
+4. Iportiere `MaUI [v6.5] Cosmetic DT.txt` unter `ElvUI > mMediaTag > Cosmetic > DTPanels` scrolle runter und füge den String dort ein. - ![mmt](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/mmt.png)
+5. `MaUI [v6.5] Blizzard.txt` ist für das Blizzard interface gedacht - ![wow](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/wow.png)
 
-### WoW
- - [WoW](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/MaUI%20Blizz.txt)
+## Profile string Files
+- [Retail](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/tree/main/v6%20Retail)
+- [Classic](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/tree/main/v6%20Retail/Classic)
 
 ### Addons
  - [DBM](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/DBM.txt)
  - [Details](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/Details.txt)
 
-### Nur Namensplaketten Filter
- - [Nur M+ Prio Filter](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/M%2B%20Filter%20for%20NP/M%2B%20Prio%20Namplate%20Filter.txt)
- - [Nur M+ Affix Filter](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/M%2B%20Filter%20for%20NP/M%2B%20Affix%20Filter.txt)
- - [DH Fooder of the Flam Filter](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/M%2B%20Filter%20for%20NP/DH%20Fooder%20of%20the%20Flame.txt)
- - [DF Dungeon Bosse](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/M%2B%20Filter%20for%20NP/DF%20Dungeon%20Bosses.txt)
+## Discord
+https://discord.gg/AE9XebMU49
 
-## Namesplaketten Prioritäten Farben
+## Nameplate priority Colors
 ```bash
- 1. Pink hohe Priorität
- 2. Dunkel Blau 2. Priorität
- 3. Lila 3. priorPrioritätity
- 4. Hell Blau hohe HP
- 5. Braun Special (Totems)
+- pink = 1st prio
+- blue = 2nd prio
+- purple = 3rd prio
+- cyan = mini Bosses or high HP
+- brown = cc/debuff/buff/shield/heal
+- evoker green = special mobs/ summon/ transforms
 ```
-
-# Installation
-Import reihen folge
-
-```bash
-  1. Profil
-  2. Namansplaketten
-  3. Global
-  4. Privat
-  5. WoW Interface Import String (im Interface Bearbeitungsmodus von WoW Importieren)
-  6. Nach dem Iprortieren der Profile, muss das Interface einmal neu geladen werden, dazu muss einfach /rl im Chat eingegeben werden.
-```
-
-Alles von 1-4 wird in ElvUI unter Profil Importieren, einzeln und nacheinander eigefügt und Importiert.
-
-Was bedueten die einzelnen Profile?
-- Profil = Das ist das Hauptprofil, dieses ist nicht Komplett ohne das Global Profil.
-- Namensplaketten = Stil Filter für die Namensplaketten und ist Optional, z. B. Farbige M+ Gegner, Hervorhebung von Bossen usw...
-- Global = Globale Einstellungen für das Hautprofile, z. B. für die Dockleiste
-- Privat = erweiterte Einstellungen für das Hauptprofile, Texturen und Farben
-- WoW Interface = Passt die Position vom Questlog und dem Sprechenkopf Fenster an
 
 ## Screenshots
-![scr1](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/2023-01-18%20(2).png)
-![scr2](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/2023-01-22%20(1).png)
-![scr3](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/2023-01-22%20(4).png)
-![scr4](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/2023-01-22%20(6).png)
-![scr5](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/2023-02-11%20(2).png)
-![scr6](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/2023-02-11%20(3).png)
-![scr7](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/2023-02-11%20(4).png)
-![scr8](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/2023-02-11.png)
-![scr9](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/2023-02-12%20(1).png)
-![scr10](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/2023-02-12%20(2).png)
-![scr11](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/2023-02-12%20(3).png)
-![scr12](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/2023-02-12.png)
+![scr1](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/01.png)
+![scr2](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/02.png)
+![scr3](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/03.png)
+![scr4](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/04.png)
+![scr5](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/05.png)

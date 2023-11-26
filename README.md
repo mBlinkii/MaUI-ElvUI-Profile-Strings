@@ -12,8 +12,8 @@ Here I have put together my complete EvlUI profile for you. This profile is for 
 - Update all Profiles for the new Version of mMediaTag
 - Fixed broken TAGs
 - Add Portraits
-- New Databar Style
-- Pre Update of M+ Filters (Name says S3 but its actually for S2) there comes a seperate Update.
+- New Data bar Style
+- Pre Update of M+ Filters (Name says S3 but its actually for S2) there comes a separate Update.
 
 ## Features:
 - Self created dock bar with useful functions.
@@ -24,13 +24,13 @@ Here I have put together my complete EvlUI profile for you. This profile is for 
 - Rare/Elite/Boss enemies are highlighted (color of text changes)
 - Faction icon and PVP text is displayed when the teammate is PVP marked.
 - Quest log is skinned
-- Display of the most important Currencys, on top left.
-- Dungeon bosses Are highlighted in DFdungeons.
-- M+ color highlighting of Importent units.
+- Display of the most important Currency, on top left.
+- Dungeon bosses Are highlighted in DF dungeons.
+- M+ color highlighting of Importen units.
 - Inspiring units are highlighted
-- Units standing in sanguin are highlighted
+- Units standing in sanguine are highlighted
 - Custom Combat and Role Icons
-- Gardient colors
+- Gradient colors
 - Portraits
 - and much more
 
@@ -39,7 +39,7 @@ Here I have put together my complete EvlUI profile for you. This profile is for 
 - [![mMediaTag](https://img.shields.io/badge/Addon-mMediaTag-blueviolet)](https://www.curseforge.com/wow/addons/elvui_mmediatag)
 - [![Eltruism](https://img.shields.io/badge/Addon-Eltruism-blue)](https://www.curseforge.com/wow/addons/elvui-eltruism)
 
-## Thes addons are Optional (not needed):
+## These addons are Optional (not needed):
  - [![AddonSkins](https://img.shields.io/badge/Addon-AddonSkins-blue)](https://www.curseforge.com/wow/addons/addonskins)
  - [![ProjectAzilroka](https://img.shields.io/badge/Addon-ProjectAzilroka-blue)](https://www.curseforge.com/wow/addons/projectazilroka)
  - [![FCT](https://img.shields.io/badge/Addon-FCT-red)](https://www.tukui.org/addons.php?id=137)
@@ -52,7 +52,7 @@ Here I have put together my complete EvlUI profile for you. This profile is for 
 - All your changes of the MaUI Profiles will be lost if you Import this Profiles. Backup your old Profile
 
 ## How to Import:
-1. Choos your Profile `MaUI [v6.5] Tank - DD` or `MaUI [v6.5] Heal Center` or `MaUI [v6.5] Heal Left`
+1. Choose your Profile `MaUI [v6.5] Tank - DD` or `MaUI [v6.5] Heal Center` or `MaUI [v6.5] Heal Left`
 2. Copy the Profile, Private, Global and Nameplate String into each section of ElvUI under `ElvUI > Profile > Import` - ![elvui](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/elvui.png)
 3. Click on Import and Reload
 4. Import `MaUI [v6.5] Cosmetic DT.txt` under `ElvUI > mMediaTag > Cosmetic > DTPanels` scroll down and past the string into the text field, click on import. - ![mmt](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/mmt.png)
@@ -68,12 +68,6 @@ Here I have put together my complete EvlUI profile for you. This profile is for 
 
 ## Discord
 https://discord.gg/AE9XebMU49
-
-### Only Nameplate Filters
- - [Only the M+ Prio Filters](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/M%2B%20Filter%20for%20NP/M%2B%20Prio%20Namplate%20Filter.txt)
- - [Only the M+ Affix Filters](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/M%2B%20Filter%20for%20NP/M%2B%20Affix%20Filter.txt)
- - [DH Fooder of the Flame Filter](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/M%2B%20Filter%20for%20NP/DH%20Fooder%20of%20the%20Flame.txt)
- - [DF Dungeon Bosses](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/M%2B%20Filter%20for%20NP/DF%20Dungeon%20Bosses.txt)
 
 ## Nameplate priority Colors
 ```bash
