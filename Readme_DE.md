@@ -56,6 +56,9 @@ Diese Addons werden Benötigt.
 - Lösche alle alten Namensplaketten Filter und verwende die neuen - ![filter](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/filter.png)
 - Alle Änderungen an den MaUI-Profilen gehen verloren, wenn diese Profile importiert wird. Sichern das alte Profil!
 
+- ## Import Video von Jiberish auf Englisch
+https://www.youtube.com/watch?v=plOL8e279og&t=7s
+
 ## How to Import:
 1. Wähle ein Profil aus `MaUI [v6.5] Tank - DD` or `MaUI [v6.5] Heal Center` or `MaUI [v6.5] Heal Left`
 2. Kopiere den Profil-, Private-, Global- and Nameplate- String in das jeweilige Feld in ElvUI `ElvUI > Profile > Import` - ![elvui](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/elvui.png)
