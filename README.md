@@ -50,6 +50,9 @@ Here I have put together my complete EvlUI profile for you. This profile is for 
 ### Important:
 - Delete all old Nameplate Style Filters and use the new one - ![filter](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/filter.png)
 - All your changes of the MaUI Profiles will be lost if you Import this Profiles. Backup your old Profile
+- 
+## Import Video from Jiberish
+https://www.youtube.com/watch?v=plOL8e279og&t=7s
 
 ## How to Import:
 1. Choose your Profile `MaUI [v6.5] Tank - DD` or `MaUI [v6.5] Heal Center` or `MaUI [v6.5] Heal Left`
