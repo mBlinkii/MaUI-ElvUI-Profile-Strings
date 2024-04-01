@@ -2,7 +2,7 @@
   <img width="800" height="400" src="https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/mauilogo.png">
 </p>
 
-# MaUI v6.5 [Tank/DD/Heal] [1080p] - Update 01.04.2023]
+# MaUI v6.5 [Tank/DD/Heal] [1080p] - [Update 01.04.2023]
 
 Here I have put together my complete EvlUI profile for you. This profile is for 1080p, for other resolutions, the scaling and position of the elment must be adjusted.
 

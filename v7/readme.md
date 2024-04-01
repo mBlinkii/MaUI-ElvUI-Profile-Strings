@@ -2,11 +2,11 @@
   <img width="800" height="400" src="https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/mauilogo.png">
 </p>
 
-# MaUI v7 [Tank/DD] [1440p] - Update 01.04.2024]
+# MaUI v7 [Tank/DD] [1440p] - [Update 01.04.2024]
 
 Here I have put together my complete EvlUI profile for you. This profile is for 1440p, for other resolutions, the scaling and position of the elment must be adjusted.
 
-!!! Important info !!! I will not continue these profiles, there will be no healer layout for this version.
+!!! Important info !!! I will not continue these profile, there will be no healer layout for this version.
 
 ## Changelog
 - first releas v7 - ready for S4
@@ -56,7 +56,7 @@ https://www.youtube.com/watch?v=plOL8e279og&t=7s
 5. `MaUI [v7] Blizzard` is for the Blizzard Edit mode und can imported there - ![wow](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/wow.png)
 
 ## Profile string Files
-- [Retail](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/tree/main/v6%20Retail)
+- [v7 Profile](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/tree/main/v7)
 
 ### Addons
  - [DBM](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/DBM.txt)
