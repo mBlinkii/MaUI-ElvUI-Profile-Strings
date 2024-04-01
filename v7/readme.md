@@ -9,7 +9,7 @@ Here I have put together my complete EvlUI profile for you. This profile is for 
 !!!Important info! I will not continue these profiles, there will be no healer layout for this version.
 
 ## Changelog
-- first releas v7
+- first releas v7 - ready for S4
 
 ## Features:
 - Self created dock bar with useful functions.
@@ -76,9 +76,9 @@ https://discord.gg/AE9XebMU49
 ```
 
 ## Screenshots
-![scr1](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/01.png)
-![scr2](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/02.png)
-![scr3](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/03.png)
-![scr4](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/04.png)
-![scr5](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/05.png)
-
+![scr1](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/v7-1.png)
+![scr2](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/v7-2.png)
+![scr3](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/v7-3.png)
+![scr4](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/v7-4.png)
+![scr5](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/v7-5.png)
+![scr5](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/v7-6.png)
