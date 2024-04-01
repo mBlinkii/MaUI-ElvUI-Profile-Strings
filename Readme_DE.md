@@ -2,16 +2,13 @@
   <img width="800" height="400" src="https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/mauilogo.png">
 </p>
 
-# MaUI v6.5 [Tank/DD/Heal] [1080] - Update 10.11.2023]
+# MaUI v6.5 [Tank/DD/Heal] [1080p] - Update 01.04.2024]
 
 Hier habe ich mein komplettes EvlUI-Profil für euch zusammengestellt. Diese Profil ist für ein Full HD 1080p Auflösung gedacht. Bei anderen Auflösungen muss die Skalierung und die Position der Einzelnen Element angepasst werden.
 
 ## Changelog
-- Alle Profile für die neue Version von mMediaTag aktualisiert
-- Fehler an den TAGs behoben
-- Portraits hinzugefügt
-- Neue Dock Leiste im still von XIV
-- Pre Update der Namensplaketten Filter für S3
+- Update der Namensplaketten Filter für S4
+- v7 Profil hinzugefügt
 
 ## Features
  - Benutzerdefinierte Dockleiste mit nützlichen Funktionen.
@@ -69,6 +66,7 @@ https://www.youtube.com/watch?v=plOL8e279og&t=7s
 ## Profile string Files
 - [Retail](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/tree/main/v6%20Retail)
 - [Classic](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/tree/main/v6%20Retail/Classic)
+- [v7 Profile](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/tree/main/v7)
 
 ### Addons
  - [DBM](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/DBM.txt)

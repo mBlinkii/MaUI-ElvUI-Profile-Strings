@@ -6,7 +6,7 @@
 
 Here I have put together my complete EvlUI profile for you. This profile is for 1440p, for other resolutions, the scaling and position of the elment must be adjusted.
 
-!!!Important info! I will not continue these profiles, there will be no healer layout for this version.
+!!! Important info !!! I will not continue these profiles, there will be no healer layout for this version.
 
 ## Changelog
 - first releas v7 - ready for S4

@@ -2,18 +2,15 @@
   <img width="800" height="400" src="https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/mauilogo.png">
 </p>
 
-# MaUI v6.5 [Tank/DD/Heal] [1080] - Update 10.11.2023]
+# MaUI v6.5 [Tank/DD/Heal] [1080p] - Update 01.04.2023]
 
 Here I have put together my complete EvlUI profile for you. This profile is for 1080p, for other resolutions, the scaling and position of the elment must be adjusted.
 
 # [DE] - [Deutsche Version der Anleitung](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Readme_DE.md) - [DE]
 
 ## Changelog
-- Update all Profiles for the new Version of mMediaTag
-- Fixed broken TAGs
-- Add Portraits
-- New Data bar Style
-- Pre Update of M+ Filters (Name says S3 but its actually for S2) there comes a separate Update.
+- Update of M+ Filters for S4
+- Add v7 Profile
 
 ## Features:
 - Self created dock bar with useful functions.
@@ -64,6 +61,7 @@ https://www.youtube.com/watch?v=plOL8e279og&t=7s
 ## Profile string Files
 - [Retail](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/tree/main/v6%20Retail)
 - [Classic](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/tree/main/v6%20Retail/Classic)
+- [v7 Profile](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/tree/main/v7)
 
 ### Addons
  - [DBM](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/DBM.txt)
