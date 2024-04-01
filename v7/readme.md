@@ -2,18 +2,14 @@
   <img width="800" height="400" src="https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/mauilogo.png">
 </p>
 
-# MaUI v6.5 [Tank/DD/Heal] [1080] - Update 10.11.2023]
+# MaUI v7 [Tank/DD] [1440p] - Update 01.04.2024]
 
-Here I have put together my complete EvlUI profile for you. This profile is for 1080p, for other resolutions, the scaling and position of the elment must be adjusted.
+Here I have put together my complete EvlUI profile for you. This profile is for 1440p, for other resolutions, the scaling and position of the elment must be adjusted.
 
-# [DE] - [Deutsche Version der Anleitung](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Readme_DE.md) - [DE]
+!!!Important info! I will not continue these profiles, there will be no healer layout for this version.
 
 ## Changelog
-- Update all Profiles for the new Version of mMediaTag
-- Fixed broken TAGs
-- Add Portraits
-- New Data bar Style
-- Pre Update of M+ Filters (Name says S3 but its actually for S2) there comes a separate Update.
+- first releas v7
 
 ## Features:
 - Self created dock bar with useful functions.
@@ -49,21 +45,18 @@ Here I have put together my complete EvlUI profile for you. This profile is for 
 
 ### Important:
 - Delete all old Nameplate Style Filters and use the new one - ![filter](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/filter.png)
-- All your changes of the MaUI Profiles will be lost if you Import this Profiles. Backup your old Profile
-- 
+
 ## Import Video from Jiberish
 https://www.youtube.com/watch?v=plOL8e279og&t=7s
 
 ## How to Import:
-1. Choose your Profile `MaUI [v6.5] Tank - DD` or `MaUI [v6.5] Heal Center` or `MaUI [v6.5] Heal Left`
-2. Copy the Profile, Private, Global and Nameplate String into each section of ElvUI under `ElvUI > Profile > Import` - ![elvui](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/elvui.png)
+1. Copy the `MaUI [v7] Profile`, `MaUI [v7] Private`, `MaUI [v7] Global` and `MaUI [v7] Nameplate` String into each section of ElvUI under `ElvUI > Profile > Import` - ![elvui](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/elvui.png)
 3. Click on Import and Reload
-4. Import `MaUI [v6.5] Cosmetic DT.txt` under `ElvUI > mMediaTag > Cosmetic > DTPanels` scroll down and past the string into the text field, click on import. - ![mmt](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/mmt.png)
-5. `MaUI [v6.5] Blizzard.txt` is for the Blizzard Edit mode und can imported there - ![wow](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/wow.png)
+4. Import `MaUI [v7] Cosmetic Bars` under `ElvUI > mMediaTag > Cosmetic > DTPanels` scroll down and past the string into the text field, click on import. - ![mmt](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/mmt.png)
+5. `MaUI [v7] Blizzard` is for the Blizzard Edit mode und can imported there - ![wow](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/wow.png)
 
 ## Profile string Files
 - [Retail](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/tree/main/v6%20Retail)
-- [Classic](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/tree/main/v6%20Retail/Classic)
 
 ### Addons
  - [DBM](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/DBM.txt)
