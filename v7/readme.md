@@ -4,15 +4,12 @@
 
 # MaUI v7 [Tank/DD] [1440p] - [Update 01.04.2024]
 
-Here I have put together my complete EvlUI profile for you. This profile is for 1440p, for other resolutions, the scaling and position of the elment must be adjusted.
+Here I have put together my complete EvlUI profile for you. This profile is for 1440p, for other resolutions, the scaling and position of the elments must be adjusted.
 
 !!! Important info !!! I will not continue these profile, there will be no healer layout for this version.
 
-## Changelog
-- first releas v7 - ready for S4
-
 ## Features:
-- Self created dock bar with useful functions.
+- Self-created dock bar with useful functions.
 - Profession menu.
 - The target Count is displayed on the Nameplates.
 - Health text of group unit switches between max life and percentage display in combat.
@@ -28,6 +25,7 @@ Here I have put together my complete EvlUI profile for you. This profile is for 
 - Custom Combat and Role Icons
 - Gradient colors
 - Portraits
+- Ready for S4
 - and much more
 
 ## These addons are required:
