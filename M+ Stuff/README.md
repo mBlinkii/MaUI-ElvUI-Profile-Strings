@@ -2,53 +2,8 @@
 
 These filters are for M+ players, they are active in M+ and M0 dungeons. Here are different filters, priority target colors for ElvUI nameplates, important spell instructions and important spell castbar highlits.
 
-# 🌱 Priority target colors
+# 🌱 Guide and Import Links
 
-| Color     | Description               |
-| :-------- | ------------------------- |
-| `pink`    | 1st prio                  |
-| `blue`    | 2nd prio                  |
-| `purple`  | 3rd prio                  |
-| `cyan`    | mini Bosses or high HP    |
-| `brown`   | cc/debuff/buff/shield/heal|
-
-
-## 📄 How to Import - priority colors:
-2. Copy the string into a section of ElvUI under `ElvUI > Profile > Import` - [Screenshot - ElvUI Import](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/elvui.png)
-3. Click on Import
-4. Make sure that the filters are enabled and active, check this under `ElvUI > Nameplate > Style Filter` [Screenshot - Check Filters](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/filter%20list.png) and [Screenshot - Enable Filter](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/filter%20enable.png)
-
-### ⚡ Important:
-- Delete all old Nameplate Style Filters and use the new one - [Screenshot - Old Filters](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/filter.png)
-
-
-## 🌱 Important spells with instructions on the nameplates
-| Color     | Text         | Description                                              |
-| :-------- | ------------ | -------------------------------------------------------- |
-| `green`   | `KICK ME`    | Important spell and should be interrupted.               |
-| `brown`   | `FRONTAL`    | Frontal attack, move away.                               |
-| `orange`  | `CC/ STUN`   | Important spell, cannot interrupt, stun, or cc this NPC. |
-
-
-## 📄 How to Import - priority colors:
-2. Copy the string into a section of ElvUI under `ElvUI > Profile > Import` - [Screenshot - ElvUI Import](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/elvui.png)
-3. Click on Import
-4. Make sure that the filters are enabled and active, check this under `ElvUI > Nameplate > Style Filter` [Screenshot - Check Filters](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/filter%20list.png) and [Screenshot - Enable Filter](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/filter%20enable.png)
-
-
-
-## 🌱 Important spells - Castbar Highlits
-
-| Color     | Description                                              |
-| :-------- | -------------------------------------------------------- |
-| `green`   | Important spell and should be interrupted.               |
-| `brown`   | Frontal attack, move away.                               |
-| `orange`  | Important spell, cannot interrupt, stun, or cc this NPC. |
-
-
-## 📄 How to Import - priority colors:
-2. Copy the string into a import field of mMT under `ElvUI > mMediaTag > Castbar > Important Spells > Scroll down and paste the code there` - [Screenshot - mMT Import](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/important-spell.png)
-3. Click on Import
 
 
 
