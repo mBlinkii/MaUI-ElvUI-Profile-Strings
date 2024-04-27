@@ -1,48 +1,36 @@
-<p align="center">
-  <img width="800" height="400" src="https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/mauilogo.png">
-</p>
+# ElvUI - Filters for M+ players - [Update 27.04.2023]
 
-# MaUI v6.5 [Tank/DD/Heal] [1080p] - [Update 01.04.2023]
+These filters are for M+ players, they are active in M+ and M0 dungeons. Here are different filters, priority target colors for ElvUI nameplates, important spell instructions and important spell castbar highlits.
 
-Here I have put together my complete EvlUI profile for you. This profile is for 1080p, for other resolutions, the scaling and position of the elments must be adjusted.
+## priority target colors
+```bash
+- pink = 1st prio
+- blue = 2nd prio
+- purple = 3rd prio
+- cyan = mini Bosses or high HP
+- brown = cc/debuff/buff/shield/heal
+```
 
-# [DE] - [Deutsche Version der Anleitung](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Readme_DE.md) - [DE]
+## How to Import - priority colors:
+2. Copy the string into a section of ElvUI under `ElvUI > Profile > Import` - ![elvui](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/elvui.png)
+3. Click on Import
+4. Make sure that the filters are enabled and active, check this under `ElvUI > Nameplate > Style Filter` ![filter list](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/elvui.png)
 
-## Changelog
-- Update of M+ Filters for S4
-- Add v7 Profile
 
-## Features:
-- Self created dock bar with useful functions.
-- Profession menu.
-- The target Count is displayed on the Nameplates.
-- Health text of group unit switches between max life and percentage display in combat.
-- Mouse over death indicator on the group windows (number of deaths of a teammate)
-- Rare/Elite/Boss enemies are highlighted (color of text changes)
-- Faction icon and PVP text is displayed when the teammate is PVP marked.
-- Quest log is skinned
-- Display of the most important Currency, on top left.
-- Dungeon bosses Are highlighted in DF dungeons.
-- M+ color highlighting of Importen units.
-- Inspiring units are highlighted
-- Units standing in sanguine are highlighted
-- Custom Combat and Role Icons
-- Gradient colors
-- Portraits
-- and much more
+## improtant spells with instructions on the Nameplates
+```bash
+- green KICK ME = Important spell and should be interrupted
+- brown FRONTAL = Frontal attack, move away
+- orange CC/ STUN = Important spell, cannot interrupt, stun, or cc this NPC.
+```
 
-## These addons are required:
-- [![ElvUI](https://img.shields.io/badge/Addon-ElvUI-orange)](https://www.tukui.org/download.php?ui=elvui)
-- [![mMediaTag](https://img.shields.io/badge/Addon-mMediaTag-blueviolet)](https://www.curseforge.com/wow/addons/elvui_mmediatag)
-- [![Eltruism](https://img.shields.io/badge/Addon-Eltruism-blue)](https://www.curseforge.com/wow/addons/elvui-eltruism)
 
-## These addons are Optional (not needed):
- - [![AddonSkins](https://img.shields.io/badge/Addon-AddonSkins-blue)](https://www.curseforge.com/wow/addons/addonskins)
- - [![ProjectAzilroka](https://img.shields.io/badge/Addon-ProjectAzilroka-blue)](https://www.curseforge.com/wow/addons/projectazilroka)
- - [![FCT](https://img.shields.io/badge/Addon-FCT-red)](https://www.tukui.org/addons.php?id=137)
- - [![Details](https://img.shields.io/badge/Addon-Details-lightgrey)](https://www.curseforge.com/wow/addons/details)
- - [![DBM](https://img.shields.io/badge/Addon-DBM-brightgreen)](https://www.curseforge.com/wow/addons/deadly-boss-mods)
- - [![WarpDeplete](https://img.shields.io/badge/Addon-WarpDeplete-red)](https://www.curseforge.com/wow/addons/warpdeplete)
+## improtant spells castbar highlits
+```bash
+- green = Important spell and should be interrupted
+- brown = Frontal attack, move away
+- orange = Important spell, cannot interrupt, stun, or cc this NPC.
+```
 
 ### Important:
 - Delete all old Nameplate Style Filters and use the new one - ![filter](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/filter.png)
