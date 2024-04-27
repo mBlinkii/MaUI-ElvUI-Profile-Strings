@@ -20,7 +20,8 @@
 
 
 ## 📄 How can I edit or add more Spells to the filter?
-- [HowTo](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/M%2B%20Stuff/ElvUI%20-%20Nameplate%20Filter.txt)
+- [HowTo - add or remove NPC Ids](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/howto%20np%20filter%20id.png)
+- [HowTo - what happens when the filter is active. ](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/howto%20np%20filter%20action.png)
 
 
 
