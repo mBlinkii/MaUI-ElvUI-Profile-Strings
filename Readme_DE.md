@@ -68,6 +68,9 @@ https://www.youtube.com/watch?v=plOL8e279og&t=7s
 - [Classic](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/tree/main/v6%20Retail/Classic)
 - [v7 Profile](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/tree/main/v7)
 
+## M+ Filter
+- [Retail](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/tree/main/M%2B%20Stuff)
+
 ### Addons
  - [DBM](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/DBM.txt)
  - [Details](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/Details.txt)
