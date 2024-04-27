@@ -19,7 +19,7 @@
 
 
 ## 📄 Import String:
-- [Screenshot - mMT Import](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/important-spell.png)
+- [Priority colors](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/M%2B%20Stuff/ElvUI%20-%20Nameplate%20Filter.txt)
 
 
 

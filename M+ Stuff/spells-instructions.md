@@ -15,7 +15,7 @@
 
 
 ## 📄 Import String:
-- [Screenshot - mMT Import](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/important-spell.png)
+- [Spells instructions](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/M%2B%20Stuff/ElvUI%20-%20Nameplater%20Filter%20Important%20Spells.txt)
 
 
 

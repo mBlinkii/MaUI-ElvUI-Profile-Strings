@@ -8,14 +8,14 @@
 
 
 
-## 📄 How to Import - priority colors:
+## 📄 How to Import - Castbar Highlits:
 2. Copy the string into a import field of mMT under `ElvUI > mMediaTag > Castbar > Important Spells > Scroll down and paste the code there` - [Screenshot - mMT Import](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/important-spell.png)
 3. Click on Import
 
 
 
 ## 📄 Import String:
-- [Screenshot - mMT Import](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/important-spell.png)
+- [Castbar Highlits](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/M%2B%20Stuff/mMT-%20Important%20Spells%20S4.txt)
 
 
 
