@@ -14,7 +14,7 @@ These filters are for M+ players, they are active in M+ and M0 dungeons. Here ar
 ## How to Import - priority colors:
 2. Copy the string into a section of ElvUI under `ElvUI > Profile > Import` - ![elvui](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/elvui.png)
 3. Click on Import
-4. Make sure that the filters are enabled and active, check this under `ElvUI > Nameplate > Style Filter` ![filter list](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/elvui.png)
+4. Make sure that the filters are enabled and active, check this under `ElvUI > Nameplate > Style Filter` ![filter list](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/filter%20list.png)![filter enable](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/filter%20enable.png)
 
 
 ## improtant spells with instructions on the Nameplates
