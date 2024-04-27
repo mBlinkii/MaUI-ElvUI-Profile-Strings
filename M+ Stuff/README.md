@@ -12,9 +12,9 @@ These filters are for M+ players, they are active in M+ and M0 dungeons. Here ar
 ```
 
 ## How to Import - priority colors:
-2. Copy the string into a section of ElvUI under `ElvUI > Profile > Import` - ![elvui](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/elvui.png)
+2. Copy the string into a section of ElvUI under `ElvUI > Profile > Import` - [Screenshot - ElvUI Import](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/elvui.png)
 3. Click on Import
-4. Make sure that the filters are enabled and active, check this under `ElvUI > Nameplate > Style Filter` ![filter list](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/filter%20list.png)![filter enable](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/filter%20enable.png)
+4. Make sure that the filters are enabled and active, check this under `ElvUI > Nameplate > Style Filter` [Screenshot - Check Filters](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/filter%20list.png)[Screenshot - Enable Filter](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/filter%20enable.png)
 
 
 ## improtant spells with instructions on the Nameplates
@@ -69,9 +69,6 @@ https://discord.gg/AE9XebMU49
 ```
 
 ## Screenshots
-![scr1](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/01.png)
-![scr2](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/02.png)
-![scr3](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/03.png)
-![scr4](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/04.png)
-![scr5](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/05.png)
-
+![filter list](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/filter%20list.png)
+![filter enable](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/filter%20enable.png)
+![elvui](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/elvui.png)
