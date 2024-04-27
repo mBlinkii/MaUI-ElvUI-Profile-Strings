@@ -14,6 +14,11 @@
 
 
 
+## 📄 Import String:
+- [Screenshot - mMT Import](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/important-spell.png)
+
+
+
 ## Screenshots
 ![kick](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/spell-kick.png)
 ![frontal](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/spell-frontal.png)

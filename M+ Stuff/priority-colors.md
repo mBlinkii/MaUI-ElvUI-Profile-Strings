@@ -17,5 +17,11 @@
 
 
 
+
+## 📄 Import String:
+- [Screenshot - mMT Import](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/important-spell.png)
+
+
+
 ## Screenshots
 ![priority colors](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/np-m%2B-filter.png)
