@@ -12,6 +12,7 @@ These filters are for M+ players, they are active in M+ and M0 dungeons. Here ar
 
 
 ## Screenshots
-![filter list](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/filter%20list.png)
-![filter enable](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/filter%20enable.png)
-![elvui](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/elvui.png)
+![priority colors](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/np-m%2B-filter.png)
+![kick](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/spell-kick.png)
+![frontal](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/spell-frontal.png)
+![cc](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/spell-cc.png)
