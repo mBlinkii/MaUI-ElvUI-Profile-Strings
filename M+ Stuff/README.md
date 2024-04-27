@@ -4,7 +4,7 @@ These filters are for M+ players, they are active in M+ and M0 dungeons. Here ar
 
 # 🌱 Priority target colors
 
-| color     | Description               |
+| Color     | Description               |
 | :-------- | ------------------------- |
 | `pink`    | 1st prio                  |
 | `blue`    | 2nd prio                  |
@@ -12,13 +12,6 @@ These filters are for M+ players, they are active in M+ and M0 dungeons. Here ar
 | `cyan`    | mini Bosses or high HP    |
 | `brown`   | cc/debuff/buff/shield/heal|
 
-```bash
-- pink = 1st prio
-- blue = 2nd prio
-- purple = 3rd prio
-- cyan = mini Bosses or high HP
-- brown = cc/debuff/buff/shield/heal
-```
 
 ## 📄 How to Import - priority colors:
 2. Copy the string into a section of ElvUI under `ElvUI > Profile > Import` - [Screenshot - ElvUI Import](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/elvui.png)
@@ -30,11 +23,12 @@ These filters are for M+ players, they are active in M+ and M0 dungeons. Here ar
 
 
 ## 🌱 Important spells with instructions on the nameplates
-```bash
-- green KICK ME = Important spell and should be interrupted
-- brown FRONTAL = Frontal attack, move away
-- orange CC/ STUN = Important spell, cannot interrupt, stun, or cc this NPC.
-```
+| Color     | Text         | Description                                              |
+| :-------- | ------------ | -------------------------------------------------------- |
+| `green`   | `KICK ME`    | Important spell and should be interrupted.               |
+| `brown`   | `FRONTAL`    | Frontal attack, move away.                               |
+| `orange`  | `CC/ STUN`   | Important spell, cannot interrupt, stun, or cc this NPC. |
+
 
 ## 📄 How to Import - priority colors:
 2. Copy the string into a section of ElvUI under `ElvUI > Profile > Import` - [Screenshot - ElvUI Import](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/elvui.png)
@@ -44,11 +38,13 @@ These filters are for M+ players, they are active in M+ and M0 dungeons. Here ar
 
 
 ## 🌱 Important spells - Castbar Highlits
-```bash
-- green = Important spell and should be interrupted
-- brown = Frontal attack, move away
-- orange = Important spell, cannot interrupt, stun, or cc this NPC.
-```
+
+| Color     | Description                                              |
+| :-------- | -------------------------------------------------------- |
+| `green`   | Important spell and should be interrupted.               |
+| `brown`   | Frontal attack, move away.                               |
+| `orange`  | Important spell, cannot interrupt, stun, or cc this NPC. |
+
 
 ## 📄 How to Import - priority colors:
 2. Copy the string into a import field of mMT under `ElvUI > mMediaTag > Castbar > Important Spells > Scroll down and paste the code there` - [Screenshot - mMT Import](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/important-spell.png)
