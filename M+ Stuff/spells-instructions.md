@@ -19,6 +19,11 @@
 
 
 
+## 📄 How can I edit or add more Spells to the filter?
+- [HowTo](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/M%2B%20Stuff/ElvUI%20-%20Nameplate%20Filter.txt)
+
+
+
 ## Screenshots
 ![kick](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/spell-kick.png)
 ![frontal](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/spell-frontal.png)

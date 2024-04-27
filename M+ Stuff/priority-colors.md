@@ -23,5 +23,11 @@
 
 
 
+## 📄 How can I edit or add more NPCs to the filter?
+- [HowTo](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/M%2B%20Stuff/ElvUI%20-%20Nameplate%20Filter.txt)
+
+
+
+
 ## Screenshots
 ![priority colors](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/np-m%2B-filter.png)
