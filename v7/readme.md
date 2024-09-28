@@ -59,8 +59,8 @@ https://www.youtube.com/watch?v=plOL8e279og&t=7s
 - [Retail](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/tree/main/M%2B%20Stuff)
 
 ### Addons
- - [DBM](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/DBM.txt)
- - [Details](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/Details.txt)
+ <!-- - [DBM](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v6%20Retail/DBM.txt) -->
+ - [Details](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/v7/MaUI%20Details.txt)
 
 ## Discord
 https://discord.gg/AE9XebMU49
