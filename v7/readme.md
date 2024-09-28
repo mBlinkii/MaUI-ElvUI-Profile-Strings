@@ -2,7 +2,7 @@
   <img width="800" height="400" src="https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/mauilogo.png">
 </p>
 
-# MaUI v7.2 [Tank/DD/Heal] [1440p] - [Update 01.04.2024]
+# MaUI v7.2 [Tank/DD/Heal] [1440p] - [Update 28.09.2024]
 
 Here I have put together my complete EvlUI profile for you. This profile is for 1440p, for other resolutions, the scaling and position of the elements must be adjusted.
 
@@ -71,8 +71,7 @@ https://discord.gg/AE9XebMU49
 - blue = 2nd prio
 - purple = 3rd prio
 - cyan = mini Bosses or high HP
-- brown = cc/debuff/buff/shield/heal
-- evoker green = special mobs/ summon/ transforms
+- brown = low prio
 ```
 
 ## Screenshots
