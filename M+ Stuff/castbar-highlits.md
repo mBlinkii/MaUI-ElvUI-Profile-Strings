@@ -15,7 +15,7 @@
 ###
 
 ## 📚 Import String:
-- [Castbar Highlits](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/M%2B%20Stuff/mMT-%20Important%20Spells%20S4.txt)
+- [Castbar Highlits](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/M%2B%20Stuff/mMT-%20Important%20Spells.txt)
 
 ###
 

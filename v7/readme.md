@@ -2,11 +2,10 @@
   <img width="800" height="400" src="https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/mauilogo.png">
 </p>
 
-# MaUI v7 [Tank/DD] [1440p] - [Update 01.04.2024]
+# MaUI v7.2 [Tank/DD/Heal] [1440p] - [Update 01.04.2024]
 
-Here I have put together my complete EvlUI profile for you. This profile is for 1440p, for other resolutions, the scaling and position of the elments must be adjusted.
+Here I have put together my complete EvlUI profile for you. This profile is for 1440p, for other resolutions, the scaling and position of the elements must be adjusted.
 
-!!! Important info !!! I will not continue these profile, there will be no healer layout for this version.
 
 ## Features:
 - Self-created dock bar with useful functions.

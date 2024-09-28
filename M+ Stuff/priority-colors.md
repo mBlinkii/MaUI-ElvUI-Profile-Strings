@@ -6,7 +6,7 @@
 | `blue`    | 2nd prio                  |
 | `purple`  | 3rd prio                  |
 | `cyan`    | mini Bosses or high HP    |
-| `brown`   | cc/debuff/buff/shield/heal|
+| `brown`   | low prio                  |
 
 ###
 
