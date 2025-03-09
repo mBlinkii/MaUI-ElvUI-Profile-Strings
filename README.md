@@ -50,8 +50,8 @@ https://www.youtube.com/watch?v=plOL8e279og&t=7s
 1. Copy the `MaUI [v7] Profile`, `MaUI [v7] Private`, `MaUI [v7] Global` and `MaUI [v7] Nameplate` String into each section of ElvUI under `ElvUI > Profile > Import` - ![elvui](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/elvui.png)
 3. Click on Import and Reload
 4. Import `MaUI [v7] Cosmetic Bars` under `ElvUI > mMediaTag > Cosmetic > DTPanels` scroll down and past the string into the text field, click on import. - ![mmt](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/mmt.png)
-5. `MaUI [v7] Blizzard` is for the Blizzard Edit mode und can imported there - ![wow](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/wow.png)
-6. Check your UI Scale and Set it to 0.53333... the UI is build for resolution of 2560 x 1440. Else you need to Setup the Frames and Panels self per hand.
+5. `MaUI [v7] Blizzard` is for the Blizzard Edit mode and can imported there - ![wow](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/wow.png)
+6. Check your UI Scale and Set it to 0.53333... the UI is build for resolution of 2560 x 1440. Other you need to Setup the Frames and Panels self per hand.
 
 ## Profile string Files
 - [v7 Profile](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/tree/main/v7)
