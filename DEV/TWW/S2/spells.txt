@@ -1,0 +1,138 @@
+-- Cinderbrew Meadery
+-- interrupt
+["440687"] = true,
+["453909"] = true,
+["441242"] = true,
+["441627"] = true,
+
+-- stun cc
+["443487"] = true,
+
+-- frontal
+["441344"] = true,
+["436592"] = true,
+["432198"] = true,
+
+-- Darkflame Cleft
+-- interrupt
+["423479"] = true,
+["424322"] = true,
+["426295"] = true,
+["426145"] = true,
+["422692"] = true,
+
+-- stun cc
+["425561"] = true,
+
+-- frontal
+["426265"] = true,
+["427025"] = true,
+["422414"] = true,
+
+-- Priory of the Sacred Flame
+-- interrupt
+["20066"] = true,
+["427346"] = true,
+["424419"] = true,
+["423051"] = true,
+["444743"] = true,
+["423665"] = true,
+["424420"] = true,
+
+-- stun cc
+["427342"] = true,
+
+-- frontal
+["441344"] = true,
+["436592"] = true,
+
+-- The Rookery
+-- interrupt
+["427260"] = true,
+["430805"] = true,
+["432959"] = true,
+["430109"] = true,
+["430238"] = true,
+
+-- stun cc
+["430754"] = true,
+
+-- frontal
+["444123"] = true,
+["433078"] = true,
+["445537"] = true,
+
+-- Theater of Pain
+-- interrupt
+["330784"] = true,
+["341969"] = true,
+["330868"] = true,
+["342675"] = true,
+["330562"] = true,
+
+-- stun cc
+["330532"] = true,
+["330810"] = true,
+
+-- frontal
+["331223"] = true,
+["333294"] = true,
+["317605"] = true,
+["320729"] = true,
+["317231"] = true,
+["323608"] = true,
+["1215738"] = true,
+["330614"] = true,
+["474087"] = true,
+
+-- Operation: Floodgate
+-- interrupt
+["1214468"] = true,
+["462771"] = true,
+["465595"] = true,
+["468631"] = true,
+["1214780"] = true,
+
+-- stun cc
+["430754"] = true,
+["471736"] = true,
+["461796"] = true,
+
+-- frontal
+["465754"] = true,
+["465681"] = true,
+["473114"] = true,
+["1217496"] = true,
+
+-- Operation: Mechagon
+-- interrupt
+["301088"] = true,
+["293827"] = true,
+["293930"] = true,
+
+-- stun cc
+["294128"] = true,
+["1215412"] = true,
+
+-- frontal
+["293986"] = true,
+["291928"] = true,
+
+-- The MOTHERLODE!!
+-- interrupt
+["280604"] = true,
+["269302"] = true,
+["271579"] = true,
+["268702"] = true,
+["262268"] = true,
+
+-- stun cc
+["267433"] = true,
+["267357"] = true,
+
+-- frontal
+["268865"] = true,
+["275907"] = true,
+["1217294"] = true,
+["259940"] = true,
+["260280"] = true,
