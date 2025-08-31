@@ -35,7 +35,7 @@ Here I have put together my complete EvlUI profile for you. This profile is for 
 ## These addons are Optional (not needed):
  - [![AddonSkins](https://img.shields.io/badge/Addon-AddonSkins-blue)](https://www.curseforge.com/wow/addons/addonskins)
  - [![ProjectAzilroka](https://img.shields.io/badge/Addon-ProjectAzilroka-blue)](https://www.curseforge.com/wow/addons/projectazilroka)
- - [![FCT](https://img.shields.io/badge/Addon-FCT-red)](https://www.tukui.org/addons.php?id=137)
+ - [![FCT](https://img.shields.io/badge/Addon-FCT-red)](https://github.com/kodewdle/ElvUI_FCT)
  - [![Details](https://img.shields.io/badge/Addon-Details-lightgrey)](https://www.curseforge.com/wow/addons/details)
  - [![DBM](https://img.shields.io/badge/Addon-DBM-brightgreen)](https://www.curseforge.com/wow/addons/deadly-boss-mods)
  - [![WarpDeplete](https://img.shields.io/badge/Addon-WarpDeplete-red)](https://www.curseforge.com/wow/addons/warpdeplete)
