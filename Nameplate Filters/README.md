@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="800" height="400" src="https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/mauilogo.png">
+  <img width="800" height="400" src="https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Media/logo.png" alt="MaUI Logo">
 </p>
 
 # ElvUI - Filters for M+ players
@@ -20,6 +20,10 @@ These filters are intended for Mythic Plus players and are active across all dun
 1. Important: Before importing these filters, please delete all old versions. Any filters starting with mMT- or m- are outdated and should no longer be used.
 2. Copy the desired filter and easily import it into ElvUI under Profile > Import.
 3. Activate the filters if you're not using one of my profiles or if you're using an outdated one.
+
+- [Enable or Disable a Filter](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Nameplate%20Filters/enable-disable.md)
+- [Enable Sound](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Nameplate%20Filters/sound.md)
+- [Full Filterlist](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Nameplate%20Filters/list.md)
 
 ###
 
