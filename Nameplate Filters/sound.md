@@ -1,7 +1,3 @@
-<p align="center">
-  <img width="800" height="400" src="https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/mauilogo.png">
-</p>
-
 # ElvUI - Filters for M+ players
 
 ### Updates
