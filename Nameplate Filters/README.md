@@ -20,6 +20,9 @@ These filters are intended for Mythic Plus players and are active across all dun
 ###
 
 # Filters
+- [Priority Filters](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Nameplate%20Filters/Retail%20Mythic%20plus/priority%20filters.txt)
+- [Target Marker Filters](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/tree/main/Nameplate%20Filters/Targetmarker%20Filters)
+- [Important Casts Filters](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Nameplate%20Filters/Retail%20Mythic%20plus/important%20casts%20filters.txt)
 
 ###
 
