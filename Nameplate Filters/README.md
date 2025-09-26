@@ -1,13 +1,13 @@
-# ElvUI - Filters for M+ players - [Update 28.09.2023]
+# ElvUI - Filters for M+ players
+
+### Updates
+
+- 26.09.2025 - TWW S3 & ElvUI 14.0 Support
+
 
 ###
 
-Changelog
-- Update for TWW S1
-  
-###
-
-These filters are for M+ players who are active in M+ and M0 dungeons. Here are different filters, priority target colors for ElvUI nameplates, important spell instructions, and important spell cast bar highlights.
+These filters are intended for Mythic Plus players and are active across all dungeon difficulty levels in the current season.
 
 ###
 
