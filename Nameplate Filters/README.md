@@ -11,15 +11,17 @@ These filters are intended for Mythic Plus players and are active across all dun
 
 ###
 
-# 🌱 Guide and Import Links
-- [Priority target colors](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/M%2B%20Stuff/priority-colors.md)
-- [Important spells with instructions on the nameplates](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/M%2B%20Stuff/spells-instructions.md)
-- [Important spells - Castbar Highlits](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/M%2B%20Stuff/castbar-highlits.md)
+# HowTo
+
+1. Important: Before importing these filters, please delete all old versions. Any filters starting with mMT- or m- are outdated and should no longer be used.
+2. Copy the desired filter and easily import it into ElvUI under Profile > Import.
+3. Activate the filters if you're not using one of my profiles or if you're using an outdated one.
+
+###
+
+# Filters
 
 ###
 
 ## Screenshots
-![priority colors](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/np-m%2B-filter.png)
-![kick](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/spell-kick.png)
-![frontal](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/spell-frontal.png)
-![cc](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/spell-cc.png)
+![priority colors](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Media/filter.png)
