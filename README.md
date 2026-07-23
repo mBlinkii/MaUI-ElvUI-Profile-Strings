@@ -38,8 +38,12 @@ Here I have put together my complete ElvUI profile for you. This profile is buil
 ## Profile string files
 - [Profile Folder](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/tree/main/Profile)
 
+## Archive
+Older profile versions (v3 - v7) and legacy addons can be found here:
+- [Archive Folder](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/tree/main/Archive)
+
 ## Discord
-https://discord.gg/AE9XebMU49
+[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&logoColor=white)](https://discord.gg/AE9XebMU49)
 
 ## Screenshots
 ![screenshot 1](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/Screenshot%202026-07-23%20185143.png)
