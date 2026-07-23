@@ -46,7 +46,6 @@ Older profile versions (v3 - v7) and legacy addons can be found here:
 [![Discord](https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&logoColor=white)](https://discord.gg/AE9XebMU49)
 
 ## Screenshots
-![screenshot 1](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/Screenshot%202026-07-23%20185143.png)
 ![screenshot 2](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/Screenshot%202026-07-23%20185214.png)
 ![screenshot 3](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/Screenshot%202026-07-23%20185244.png)
 ![screenshot 4](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/Screenshot%202026-07-23%20185307.png)
