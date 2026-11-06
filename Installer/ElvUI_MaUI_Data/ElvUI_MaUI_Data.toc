@@ -1,0 +1,39 @@
+## Interface: 11509, 16001, 20506, 38001, 38002, 50504, 120105
+## Title: |CFF29C0E3M|r|CFF5493FFa|r|CFF854FE3U|r|CFFA632E3I|r |CFFB8B8B8Installer Data|r
+## Notes: Profile data of the MaUI installer, only loaded while installing or updating.
+## Notes-deDE: Profildaten des MaUI-Installers, werden nur beim Installieren oder Aktualisieren geladen.
+## Author: Blinkii
+## Version: 1.0.0
+## IconTexture: Interface\AddOns\ElvUI_MaUI\media\icon
+## LoadOnDemand: 1
+## Dependencies: ElvUI_MaUI
+## Group: ElvUI
+## Category-enUS: UI Overhaul
+## Category-deDE: UI-Überholung
+## Category-esES: Renovación de la UI
+## Category-esMX: Renovación de la UI
+## Category-itIT: Revisione dell'UI
+## Category-frFR: Révision de l'UI
+## Category-ptBR: Renovação da UI
+## Category-ruRU: Переработка интерфейса
+## Category-koKR: UI 개편
+## Category-zhCN: UI重构
+## Category-zhTW: UI重構
+
+data\baganator\categories.lua
+data\baganator\profile.lua
+data\blizzard\editmode.lua
+data\blizzard\editmode_forever.lua
+data\details\profile.lua
+data\elvui\base.lua
+data\elvui\global.lua
+data\elvui\layout_heal.lua
+data\elvui\layout_heal_cdm.lua
+data\elvui\layout_tankdd.lua
+data\elvui\layout_tankdd_cdm.lua
+data\elvui\private.lua
+data\legacy\v8.5.lua
+data\legacy\v8.lua
+data\mmt\cdm.lua
+data\mmt\datapanels.lua
+data\mplustimer\profile.lua

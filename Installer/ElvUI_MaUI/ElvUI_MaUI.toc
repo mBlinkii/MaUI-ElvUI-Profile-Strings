@@ -1,0 +1,70 @@
+## Interface: 11509, 16001, 20506, 38001, 38002, 50504, 120105
+## Title: |CFF29C0E3M|r|CFF5493FFa|r|CFF854FE3U|r|CFFA632E3I|r |CFFB8B8B8Installer|r
+## Notes: Installer for the MaUI ElvUI profile and its addon profiles.
+## Notes-deDE: Installer für das MaUI ElvUI-Profil und die passenden Addon-Profile.
+## Notes-esES: Instalador del perfil MaUI de ElvUI y de los perfiles de addons correspondientes.
+## Notes-esMX: Instalador del perfil MaUI de ElvUI y de los perfiles de addons correspondientes.
+## Notes-frFR: Installateur du profil ElvUI MaUI et des profils d'addons correspondants.
+## Notes-itIT: Installer del profilo ElvUI di MaUI e dei profili degli addon abbinati.
+## Notes-koKR: MaUI ElvUI 프로필과 어울리는 애드온 프로필 설치 도우미.
+## Notes-ptBR: Instalador do perfil MaUI do ElvUI e dos perfis de addons correspondentes.
+## Notes-ruRU: Установщик профиля MaUI для ElvUI и подходящих профилей аддонов.
+## Notes-zhCN: MaUI ElvUI 配置文件及配套插件配置文件的安装向导。
+## Notes-zhTW: MaUI ElvUI 設定檔及搭配插件設定檔的安裝精靈。
+## Author: Blinkii
+## Version: 1.0.0
+## X-MaUI-Profile: 8.5
+## IconTexture: Interface\AddOns\ElvUI_MaUI\media\icon
+## RequiredDeps: ElvUI, ElvUI_mMediaTag
+## OptionalDeps: Baganator, Details, MauiMPlusTimer, !!FunctionProfiler
+## SavedVariables: MaUIInstallerDB
+## SavedVariablesPerCharacter: MaUIInstallerCharDB
+## AddonCompartmentFunc: ElvUI_MaUI_OnAddonCompartmentClick
+## Group: ElvUI
+## Category-enUS: UI Overhaul
+## Category-deDE: UI-Überholung
+## Category-esES: Renovación de la UI
+## Category-esMX: Renovación de la UI
+## Category-itIT: Revisione dell'UI
+## Category-frFR: Révision de l'UI
+## Category-ptBR: Renovação da UI
+## Category-ruRU: Переработка интерфейса
+## Category-koKR: UI 개편
+## Category-zhCN: UI重构
+## Category-zhTW: UI重構
+
+init.lua
+
+locales\deDE.lua
+locales\esES.lua
+locales\frFR.lua
+locales\itIT.lua
+locales\koKR.lua
+locales\ptBR.lua
+locales\ruRU.lua
+locales\zhCN.lua
+locales\zhTW.lua
+
+core\utils.lua
+core\modules.lua
+core\profiles.lua
+
+modules\uiscale.lua
+modules\elvui.lua
+modules\mmt.lua
+modules\elvui_setup.lua
+modules\blizzard.lua
+modules\details.lua
+modules\baganator.lua
+modules\mplustimer.lua
+
+data\index.lua
+
+ui\widgets.lua
+ui\frame.lua
+ui\pages.lua
+ui\notice.lua
+ui\options.lua
+
+core\boot.lua
+core\profiler.lua
