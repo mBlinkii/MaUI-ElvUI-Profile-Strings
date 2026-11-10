@@ -6,7 +6,7 @@
 
 Here I have put together my complete ElvUI profile for you. MaUI is built for 1440p, other resolutions are scaled by the installer so the layout keeps its proportions.
 
-The easiest way to get it is the **MaUI Installer**, it sets up the whole interface in one go. All profile strings are still here for a manual import.
+The easiest way to get it is the [**MaUI Installer**](https://www.curseforge.com/wow/addons/maui) on CurseForge, it sets up the whole interface in one go. All profile strings are still here for a manual import.
 
 ![MaUI in the open world](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Screenshots/Screenshot%202026-11-01%20132233.png)
 
@@ -36,10 +36,12 @@ The easiest way to get it is the **MaUI Installer**, it sets up the whole interf
 - [![MaUI M+ Timer](https://img.shields.io/badge/Addon-MaUI%20M%2B%20Timer-green)](https://www.curseforge.com/wow/addons/maui-m-timer)
 
 ## MaUI Installer
+[![MaUI Installer](https://img.shields.io/badge/CurseForge-MaUI%20Installer-F16436)](https://www.curseforge.com/wow/addons/maui)
+
 The **MaUI Installer** (`ElvUI_MaUI`, version 1.0.0) is its own addon with its own installation window. It replaces ElvUI's installer and sets up MaUI step by step, you see what happens before anything is changed.
 
 ### Installation
-1. Install the MaUI Installer together with ElvUI and mMediaTag (and the optional addons you want).
+1. Install the [MaUI Installer](https://www.curseforge.com/wow/addons/maui) together with ElvUI and mMediaTag (and the optional addons you want).
 2. Log in. On a new character the installer opens by itself, otherwise type `/maui` or use the addon compartment.
 3. Go through the steps and click **Install**.
 4. Reload your interface, done.
@@ -47,12 +49,14 @@ The **MaUI Installer** (`ElvUI_MaUI`, version 1.0.0) is its own addon with its o
 ### The steps
 - **Welcome**: a short system check of ElvUI, mMediaTag and the optional addons.
 - **ElvUI setup**: ElvUI's basic game settings (CVars) and the MaUI chat: one window on the left with the tabs General (with trade), Whisper, Group, Guild and Combat Log.
-- **Profile**: the MaUI profiles already on your account, e.g. from another character. Pick one to use it right away, or install a new one.
+- **Profile**: the MaUI profiles already on your account, e.g. from another character. Pick one to use it right away, or install a new one. For an outdated profile it shows how many settings an update changes and in which areas.
 - **Layout**: Tank/DD or Heal, with or without Cooldown Manager.
 - **Data panels**: the bar at the bottom (full, center only, dock only or none), the currency panel and the decorative bars.
 - **Addons**: which addon profiles to install, for Baganator the full profile or only the categories.
 - **Scale**: the UI scale for your resolution (0.5333 at 1440p), with a notice on other resolutions.
 - **Install**: a summary, every step shows live whether it worked.
+
+The installer window hides when you enter combat and comes back on the same step afterwards.
 
 ### What it sets up
 - The ElvUI profile, private and global settings.
@@ -66,7 +70,7 @@ Turn on the advanced mode on the layout page to install single parts of ElvUI in
 
 ### Alts and updates
 - On a new character the installer finds the MaUI profiles of your account and suggests the one you used last. The game settings and chat are set up first.
-- When a new version brings changes for your profile, you get a notice at login. **Show update** opens the installer on the update page, which lists every changed area, what it is about (which unit frames, action bars, movers, ...) and how many settings change, before you apply it.
+- When a new version brings changes for your profile, you get a notice at login. It lists the changed areas and how many settings change in each, **Update** applies it right there.
 - An update only carries over what MaUI changed, your own changes stay.
 - Profiles imported by hand from the v8 or v8.5 strings can be updated too; older profiles can still be used but not updated.
 - The update is also available under `ElvUI > MaUI` in the options, together with your profile's version and status.
@@ -90,7 +94,11 @@ If you skip the installer on a new character, ElvUI's own installer opens as usu
 3. Import [`mmt_datapanels.txt`](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Profile/mmt_datapanels.txt) under `ElvUI > mMediaTag > Cosmetic > DTPanels`, scroll down and paste the string into the text field, click on import.
 4. For a Cooldown Manager layout import [`mmt_cdm.txt`](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Profile/mmt_cdm.txt) under `ElvUI > mMediaTag > Cooldown Manager`.
 5. Import [`blizzard.txt`](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Profile/blizzard.txt) (Retail) or [`blizzard_forever.txt`](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Profile/blizzard_forever.txt) (Forever) into the Blizzard Edit Mode.
-6. (Optional) Import [`baganator_profile.txt`](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Profile/baganator_profile.txt) (or only [`baganator_category.txt`](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Profile/baganator_category.txt) for the categories), [`details.txt`](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Profile/details.txt) and [`maui_mplus_timer.txt`](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Profile/maui_mplus_timer.txt) if you use those addons.
+6. (Optional) Import the profiles of the addons you use:
+   - Baganator (Retail): [`baganator_profile.txt`](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Profile/baganator_profile.txt) or only the categories [`baganator_category.txt`](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Profile/baganator_category.txt)
+   - Baganator (Forever): [`baganator_profile_forever.txt`](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Profile/baganator_profile_forever.txt) or only the categories [`baganator_category_forever.txt`](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Profile/baganator_category_forever.txt)
+   - Details!: [`details.txt`](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Profile/details.txt)
+   - MaUI M+ Timer: [`maui_mplus_timer.txt`](https://github.com/mBlinkii/MaUI-ElvUI-Profile-Strings/blob/main/Profile/maui_mplus_timer.txt)
 7. Check your UI Scale and set it to 0.53333... the UI is built for a resolution of 2560 x 1440. Otherwise you need to set up frames and panels by hand.
 
 ## Profile string files
