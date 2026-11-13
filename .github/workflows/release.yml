@@ -1,0 +1,208 @@
+name: Release
+
+# Laeuft bei jedem Versions-Tag, z.B.: git tag v1.0.1 && git push origin v1.0.1
+# Aufbau wie release.yml in mMT: pruefen, Zip bauen, GitHub-Release, CurseForge, Discord.
+#
+# Benoetigte Repository-Secrets (Settings > Secrets and variables > Actions):
+#   CF_API_TOKEN             CurseForge API-Token (wie in mMT)
+#   CF_PROJECT_ID            Projekt-ID des MaUI-Installers auf CurseForge
+#   DISCORD_RELEASE_WEBHOOK  Webhook fuer die Release-Meldung
+#   DISCORD_TEST_WEBHOOK     Webhook fuer Probelaeufe (Tags mit -test), optional
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+env:
+  CURSE_URL: https://www.curseforge.com/wow/addons/maui
+  MAIN_TOC: Installer/ElvUI_MaUI/ElvUI_MaUI.toc
+
+jobs:
+  # Statt Luacheck laufen hier die Pruefungen des Projekts selbst: check.lua laedt
+  # den Installer gegen eine nachgebaute WoW-API und spielt die Installation durch,
+  # locales.py vergleicht die Sprachdateien mit den Texten im Code.
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Lua 5.1 installieren
+        timeout-minutes: 5
+        env:
+          DEBIAN_FRONTEND: noninteractive
+        run: |
+          sudo -E apt-get update -o Acquire::Retries=3
+          sudo -E apt-get install -y --no-install-recommends -o DPkg::Lock::Timeout=60 lua5.1
+
+      - name: Installer durchspielen
+        run: lua5.1 Installer/tools/check.lua
+
+      - name: Sprachdateien pruefen
+        run: python3 -I Installer/tools/locales.py
+
+  release:
+    needs: check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Version aus Tag lesen, TOCs stempeln
+        id: meta
+        run: |
+          set -e
+          VERSION="${GITHUB_REF_NAME#v}"
+
+          # Tags mit Suffix -test sind Probelaeufe: Release nur als Draft, kein
+          # CurseForge-Upload, Discord nur an den Test-Webhook. Danach laesst sich
+          # der Lauf rueckstandsfrei loeschen - ein CF-Upload nicht.
+          case "$VERSION" in
+            *-test)
+              VERSION="${VERSION%-test}"
+              echo "istest=true" >> "$GITHUB_OUTPUT"
+              ;;
+            *)
+              echo "istest=false" >> "$GITHUB_OUTPUT"
+              ;;
+          esac
+
+          echo "version=${VERSION}" >> "$GITHUB_OUTPUT"
+          echo "zipname=ElvUI_MaUI-${VERSION}" >> "$GITHUB_OUTPUT"
+
+          # Installer und Daten-Addon tragen dieselbe Version wie der Tag.
+          for TOC in Installer/ElvUI_MaUI/ElvUI_MaUI.toc Installer/ElvUI_MaUI_Data/ElvUI_MaUI_Data.toc; do
+            sed -i "s/^## Version:.*/## Version: ${VERSION}/" "$TOC"
+          done
+
+      # package.py packt ElvUI_MaUI und ElvUI_MaUI_Data in ein Zip, wie es CurseForge erwartet.
+      - name: Zip bauen
+        run: |
+          python3 -I Installer/tools/package.py "${{ steps.meta.outputs.version }}"
+          mv "Installer/dist/${{ steps.meta.outputs.zipname }}.zip" .
+
+      # passenden Versions-Abschnitt aus CHANGELOG.md ziehen (gleiche Regeln wie in mMT)
+      - name: Changelog-Abschnitt extrahieren
+        id: changelog
+        run: |
+          VERSION="${{ steps.meta.outputs.version }}"
+          awk -v ver="$VERSION" '
+            $0 ~ "^## \\[ver\\. " ver "\\]" {flag=1; next}
+            /^## \[ver\./ {flag=0}
+            flag' CHANGELOG.md | sed -E -e 's/\r$//' \
+              -e 's/^###[[:space:]]+([^[:space:]]+[[:space:]]+)?FIX[[:space:]]*$/## 🐛 Fixes/' \
+              -e 's/^###[[:space:]]+([^[:space:]]+[[:space:]]+)?UPDATE[[:space:]]*$/## 🔧 Updates/' \
+              -e 's/^###[[:space:]]+([^[:space:]]+[[:space:]]+)?NEW[[:space:]]*$/## ✨ New/' \
+              -e 's/^###[[:space:]]+([^[:space:]]+[[:space:]]+)?INFO[[:space:]]*$/## 📌 Info/' \
+              -e 's/^- (FIX|UPDATE|NEW|INFO) - /- /' \
+              -e 's/^- \[([^]]*)\]:/- **[\1]**/' \
+              -e 's/^## /\n## /' > RELEASE_NOTES.md
+          if [ ! -s RELEASE_NOTES.md ]; then
+            echo "::warning::Kein Abschnitt fuer ${VERSION} in CHANGELOG.md gefunden."
+            echo "Siehe CHANGELOG.md im Repository." > RELEASE_NOTES.md
+          fi
+          {
+            echo "notes<<NOTES_EOF"
+            cat RELEASE_NOTES.md
+            echo "NOTES_EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: GitHub-Release erstellen
+        uses: softprops/action-gh-release@v3
+        with:
+          name: MaUI Installer v${{ steps.meta.outputs.version }}${{ steps.meta.outputs.istest == 'true' && ' (TEST)' || '' }}
+          files: ${{ steps.meta.outputs.zipname }}.zip
+          body_path: RELEASE_NOTES.md
+          draft: ${{ steps.meta.outputs.istest == 'true' }}
+          prerelease: ${{ steps.meta.outputs.istest == 'true' }}
+          make_latest: ${{ steps.meta.outputs.istest == 'true' && 'false' || 'true' }}
+
+      # Spielversion(en) aus "## Interface: 11509, ..., 120105" ableiten (120105 -> 12.1.5).
+      # Versionen, die CurseForge (noch) nicht kennt, z.B. 1.60.1 fuer WoW Forever,
+      # werden mit Warnung verworfen. Ist die Liste nicht abrufbar, bleibt alles drin.
+      - name: Interface-Versionen aus TOC lesen
+        id: game
+        env:
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+        run: |
+          set -e
+          KNOWN=$(curl -fsS --retry 3 -H "X-Api-Token: $CF_API_TOKEN" https://wow.curseforge.com/api/game/versions | jq -r '.[].name' || true)
+          [ -n "$KNOWN" ] || echo "::warning::CurseForge-Versionsliste nicht abrufbar, Versionen werden ungeprueft hochgeladen"
+          IFACES=$(grep -oP '^## Interface:\s*\K.+' "$MAIN_TOC" | tr -d '\r ')
+          VERSIONS=""
+          IFS=',' read -ra ARR <<< "$IFACES"
+          for I in "${ARR[@]}"; do
+            V="$((10#$I / 10000)).$(((10#$I % 10000) / 100)).$((10#$I % 100))"
+            case ",$VERSIONS," in *",$V,"*) continue ;; esac
+            if [ -n "$KNOWN" ] && ! grep -qxF "$V" <<< "$KNOWN"; then
+              echo "::warning::$V ist auf CurseForge unbekannt und wird nicht gesetzt"
+              continue
+            fi
+            VERSIONS="${VERSIONS:+$VERSIONS,}$V"
+          done
+          [ -n "$VERSIONS" ] || { echo "::error::Keine gueltige Spielversion gefunden"; exit 1; }
+          echo "versions=$VERSIONS" >> "$GITHUB_OUTPUT"
+          echo "Spielversionen: $VERSIONS"
+
+      - name: Auf CurseForge hochladen
+        if: steps.meta.outputs.istest != 'true'
+        uses: itsmeow/curseforge-upload@v3
+        with:
+          token: ${{ secrets.CF_API_TOKEN }}
+          project_id: ${{ secrets.CF_PROJECT_ID }}
+          game_endpoint: wow
+          file_path: ${{ steps.meta.outputs.zipname }}.zip
+          display_name: MaUI Installer v${{ steps.meta.outputs.version }}
+          game_versions: ${{ steps.game.outputs.versions }}
+          release_type: release
+          changelog: ${{ steps.changelog.outputs.notes }}
+          changelog_type: markdown
+
+      # Laeuft zuletzt, damit die Meldung erst rausgeht, wenn GitHub-Release und
+      # CurseForge-Upload durch sind.
+      - name: Discord benachrichtigen
+        continue-on-error: true
+        env:
+          WEBHOOK: ${{ steps.meta.outputs.istest == 'true' && secrets.DISCORD_TEST_WEBHOOK || secrets.DISCORD_RELEASE_WEBHOOK }}
+          IS_TEST: ${{ steps.meta.outputs.istest }}
+          VERSION: ${{ steps.meta.outputs.version }}
+          RELEASE_URL: ${{ github.server_url }}/${{ github.repository }}/releases/tag/${{ github.ref_name }}
+        run: |
+          if [ -z "$WEBHOOK" ]; then
+            echo "::warning::Kein Webhook-Secret gesetzt - Benachrichtigung uebersprungen."
+            exit 0
+          fi
+
+          TITLE="MaUI Installer v${VERSION}"
+          [ "$IS_TEST" = "true" ] && TITLE="[TEST] ${TITLE}"
+
+          LINKS="[CurseForge](${CURSE_URL}) · [GitHub](${RELEASE_URL})"
+
+          head -c 3800 RELEASE_NOTES.md > DISCORD_BODY.md
+
+          # Changelog-Text nur ueber --rawfile/--arg einspeisen, nie in den
+          # Shell-String interpolieren - sonst brechen Anfuehrungszeichen und
+          # Backticks aus dem Changelog das JSON.
+          jq -n \
+            --arg title "$TITLE" \
+            --arg url "$RELEASE_URL" \
+            --rawfile desc DISCORD_BODY.md \
+            --arg icon "https://raw.githubusercontent.com/${{ github.repository }}/main/Media/icon.png" \
+            --arg links "$LINKS" \
+            '{embeds: [{title: $title, url: $url, description: $desc, color: 8736739, thumbnail: {url: $icon}, fields: [{name: "📥 Download", value: $links, inline: false}]}]}' \
+            > DISCORD_PAYLOAD.json
+
+          HTTP=$(curl -sS -o DISCORD_RESPONSE.txt -w '%{http_code}' \
+            -H "Content-Type: application/json" \
+            --data-binary @DISCORD_PAYLOAD.json "$WEBHOOK") || {
+            echo "::warning::curl konnte den Discord-Webhook nicht erreichen."
+            exit 0
+          }
+
+          if [ "$HTTP" -ge 300 ]; then
+            echo "::warning::Discord antwortete mit HTTP ${HTTP}."
+            cat DISCORD_RESPONSE.txt
+          else
+            echo "Discord benachrichtigt (HTTP ${HTTP})."
+          fi
