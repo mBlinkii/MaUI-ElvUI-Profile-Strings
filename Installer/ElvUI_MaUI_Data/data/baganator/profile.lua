@@ -258,6 +258,8 @@ MaUI:RegisterData("baganator", "profile", {
 			addedItems = {
 				["i:237497"] = true,
 				["i:237498"] = true,
+				["i:237499"] = true,
+				["i:238387"] = true,
 				["i:238388"] = true,
 			},
 			color = "1DFF15",

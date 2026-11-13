@@ -481,11 +481,6 @@ MaUI:RegisterData("elvui", "base", {
 		panelWidth = 530,
 		recentAllyIcon = true,
 		socialQueueMessages = true,
-		tabSelectedTextColor = {
-			b = 0.729411780834198,
-			g = 0.5490196347236633,
-			r = 0.9568628072738647,
-		},
 		tabSelectorColor = {
 			b = 0,
 			g = 0.9568628072738647,
@@ -705,7 +700,7 @@ MaUI:RegisterData("elvui", "base", {
 				[1] = "System",
 				[2] = "mMT - M+ Score",
 				[3] = "mMT - Teleports",
-				[4] = "Gold",
+				[4] = "mMT - Gold",
 				battleground = false,
 				enable = true,
 			},
@@ -844,11 +839,6 @@ MaUI:RegisterData("elvui", "base", {
 			growthDirection = "HORIZONTAL",
 			size = 50,
 			spacing = 8,
-		},
-		valuecolor = {
-			b = 0.729411780834198,
-			g = 0.5490196347236633,
-			r = 0.9568628072738647,
 		},
 	},
 	mMediaTag = {
@@ -1154,6 +1144,14 @@ MaUI:RegisterData("elvui", "base", {
 		datatexts = {
 			durability_itemLevel = {
 				style = "d",
+			},
+			gold = {
+				coins = false,
+				color_mode = "custom",
+				label = false,
+				style = "SHORTSPACED",
+				text = "gold",
+				value_color = "ffffffff",
 			},
 			individual_professions = {
 				icon = "profession_colored",
@@ -1833,7 +1831,6 @@ MaUI:RegisterData("elvui", "base", {
 		TUI_CDM_EssentialMover = "BOTTOM,UIParent,BOTTOM,0,668",
 		TUI_CDM_UtilityMover = "BOTTOM,UIParent,BOTTOM,0,418",
 		ThreatBarMover = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,4",
-		TopCenterContainerMover = "TOP,ElvUIParent,TOP,0,-72",
 		TorghastChoiceToggle = "CENTER,ElvUIParent,CENTER,0,-200",
 		TotemTrackerMover = "BOTTOMLEFT,UIParent,BOTTOMLEFT,536,73",
 		VOICECHAT = "TOPLEFT,ElvUIParent,TOPLEFT,156,-81",
@@ -1892,11 +1889,6 @@ MaUI:RegisterData("elvui", "base", {
 					b = 0.08627451211214066,
 					r = 0.4470588564872742,
 				},
-			},
-			glowColor = {
-				b = 0.729411780834198,
-				g = 0.5490196347236633,
-				r = 0.9568628072738647,
 			},
 			reactions = {
 				good = {

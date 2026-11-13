@@ -2,11 +2,25 @@
 local MaUI = unpack(ElvUI_MaUI)
 
 MaUI:RegisterData("elvui", "heal_cdm", {
+	chat = {
+		tabSelectedTextColor = {
+			b = 0.729411780834198,
+			g = 0.5490196347236633,
+			r = 0.9568628072738647,
+		},
+	},
 	datatexts = {
 		panels = {
 			["mMT - CURRENCY"] = {
 				[12] = "",
 			},
+		},
+	},
+	general = {
+		valuecolor = {
+			b = 0.729411780834198,
+			g = 0.5490196347236633,
+			r = 0.9568628072738647,
 		},
 	},
 	mMediaTag = {
@@ -59,10 +73,20 @@ MaUI:RegisterData("elvui", "heal_cdm", {
 		ElvUF_Raid1Mover = "TOPLEFT,UIParent,TOPLEFT,433,-514",
 		ElvUF_TargetCastbarMover = "BOTTOM,ElvUIParent,BOTTOM,0,406",
 		ElvUF_TargetMover = "BOTTOM,ElvUIParent,BOTTOM,260,325",
+		TopCenterContainerMover = "TOP,ElvUIParent,TOP,0,-72",
 		mMediaTag_CDM_BuffBar_Mover = "BOTTOM,ElvUIParent,BOTTOM,0,427",
 		mMediaTag_CDM_Custom_Mover = "BOTTOM,UIParent,BOTTOM,-358,299",
 		mMediaTag_CDM_Essential_Mover = "BOTTOM,ElvUIParent,BOTTOM,0,335",
 		mMediaTag_CDM_Utility_Mover = "BOTTOM,ElvUIParent,BOTTOM,0,289",
+	},
+	nameplates = {
+		colors = {
+			glowColor = {
+				b = 0.729411780834198,
+				g = 0.5490196347236633,
+				r = 0.9568628072738647,
+			},
+		},
 	},
 	unitframe = {
 		units = {

@@ -49,6 +49,7 @@ MaUI:RegisterData("legacy", "8/tankdd", {
 				panels = true,
 			},
 			datatexts = {
+				gold = true,
 				professions = {
 					menu_icon_style = true,
 				},
@@ -99,6 +100,9 @@ MaUI:RegisterData("legacy", "8/tankdd", {
 				headerbar = {
 					height = true,
 				},
+			},
+			prey_hunt = {
+				gossip_color = true,
 			},
 			version = true,
 		},
@@ -361,6 +365,9 @@ MaUI:RegisterData("legacy", "8/tankdd", {
 				},
 				["mMT - CURRENCY"] = {
 					[12] = "",
+				},
+				["mMT - RIGHT"] = {
+					[4] = "Gold",
 				},
 			},
 		},

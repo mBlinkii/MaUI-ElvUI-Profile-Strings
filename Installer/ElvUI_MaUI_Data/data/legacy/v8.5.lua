@@ -43,6 +43,7 @@ MaUI:RegisterData("legacy", "8.5/tankdd", {
 				panels = true,
 			},
 			datatexts = {
+				gold = true,
 				tracker = {
 					custom = true,
 				},
@@ -62,6 +63,9 @@ MaUI:RegisterData("legacy", "8.5/tankdd", {
 				},
 				x = true,
 				y = true,
+			},
+			prey_hunt = {
+				gossip_color = true,
 			},
 			version = true,
 		},
@@ -172,6 +176,9 @@ MaUI:RegisterData("legacy", "8.5/tankdd", {
 				["mMT - CURRENCY"] = {
 					[12] = "",
 				},
+				["mMT - RIGHT"] = {
+					[4] = "Gold",
+				},
 			},
 		},
 		mMediaTag = {
@@ -186,6 +193,9 @@ MaUI:RegisterData("legacy", "8.5/tankdd", {
 				short_difficulty = true,
 				theme = "mmt",
 			},
+		},
+		movers = {
+			TopCenterContainerMover = "TOP,ElvUIParent,TOP,0,-72",
 		},
 	},
 })
@@ -240,6 +250,7 @@ MaUI:RegisterData("legacy", "8.5/tankdd_cdm", {
 				panels = true,
 			},
 			datatexts = {
+				gold = true,
 				tracker = {
 					custom = true,
 				},
@@ -357,6 +368,13 @@ MaUI:RegisterData("legacy", "8.5/tankdd_cdm", {
 		},
 	},
 	set = {
+		chat = {
+			tabSelectedTextColor = {
+				b = 0.729411780834198,
+				g = 0.5490196347236633,
+				r = 0.9568628072738647,
+			},
+		},
 		datatexts = {
 			panels = {
 				LeftChatDataPanel = {
@@ -366,6 +384,16 @@ MaUI:RegisterData("legacy", "8.5/tankdd_cdm", {
 				MinimapPanel = {
 					[2] = "mProfessions",
 				},
+				["mMT - RIGHT"] = {
+					[4] = "Gold",
+				},
+			},
+		},
+		general = {
+			valuecolor = {
+				b = 0.729411780834198,
+				g = 0.5490196347236633,
+				r = 0.9568628072738647,
 			},
 		},
 		mMediaTag = {
@@ -379,6 +407,18 @@ MaUI:RegisterData("legacy", "8.5/tankdd_cdm", {
 				leader_score = true,
 				short_difficulty = true,
 				theme = "mmt",
+			},
+		},
+		movers = {
+			TopCenterContainerMover = "TOP,ElvUIParent,TOP,0,-72",
+		},
+		nameplates = {
+			colors = {
+				glowColor = {
+					b = 0.729411780834198,
+					g = 0.5490196347236633,
+					r = 0.9568628072738647,
+				},
 			},
 		},
 	},
@@ -426,6 +466,7 @@ MaUI:RegisterData("legacy", "8.5/heal", {
 				panels = true,
 			},
 			datatexts = {
+				gold = true,
 				tracker = {
 					custom = true,
 				},
@@ -551,6 +592,9 @@ MaUI:RegisterData("legacy", "8.5/heal", {
 				},
 				MinimapPanel = {
 					[2] = "mProfessions",
+				},
+				["mMT - RIGHT"] = {
+					[4] = "Gold",
 				},
 			},
 		},
@@ -620,6 +664,7 @@ MaUI:RegisterData("legacy", "8.5/heal_cdm", {
 				panels = true,
 			},
 			datatexts = {
+				gold = true,
 				tracker = {
 					custom = true,
 				},
@@ -745,6 +790,9 @@ MaUI:RegisterData("legacy", "8.5/heal_cdm", {
 				},
 				MinimapPanel = {
 					[2] = "mProfessions",
+				},
+				["mMT - RIGHT"] = {
+					[4] = "Gold",
 				},
 			},
 		},

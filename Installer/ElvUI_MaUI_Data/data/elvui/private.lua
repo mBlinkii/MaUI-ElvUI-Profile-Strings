@@ -5,6 +5,9 @@ MaUI:RegisterData("elvui", "private", {
 	bags = {
 		enable = false,
 	},
+	chat = {
+		enable = false,
+	},
 	general = {
 		totemTracker = false,
 	},
