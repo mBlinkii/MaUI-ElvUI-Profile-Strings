@@ -101,6 +101,15 @@ MaUI:RegisterData("legacy", "8/tankdd", {
 					height = true,
 				},
 			},
+			portraits = {
+				misc = {
+					boss = true,
+					elite = true,
+					player = true,
+					rare = true,
+					rareelite = true,
+				},
+			},
 			prey_hunt = {
 				gossip_color = true,
 			},

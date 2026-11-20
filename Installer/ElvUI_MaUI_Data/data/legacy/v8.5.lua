@@ -64,6 +64,15 @@ MaUI:RegisterData("legacy", "8.5/tankdd", {
 				x = true,
 				y = true,
 			},
+			portraits = {
+				misc = {
+					boss = true,
+					elite = true,
+					player = true,
+					rare = true,
+					rareelite = true,
+				},
+			},
 			prey_hunt = {
 				gossip_color = true,
 			},
@@ -270,6 +279,15 @@ MaUI:RegisterData("legacy", "8.5/tankdd_cdm", {
 				},
 				x = true,
 				y = true,
+			},
+			portraits = {
+				misc = {
+					boss = true,
+					elite = true,
+					player = true,
+					rare = true,
+					rareelite = true,
+				},
 			},
 			version = true,
 		},
@@ -487,6 +505,15 @@ MaUI:RegisterData("legacy", "8.5/heal", {
 				x = true,
 				y = true,
 			},
+			portraits = {
+				misc = {
+					boss = true,
+					elite = true,
+					player = true,
+					rare = true,
+					rareelite = true,
+				},
+			},
 			version = true,
 		},
 		nameplates = {
@@ -684,6 +711,15 @@ MaUI:RegisterData("legacy", "8.5/heal_cdm", {
 				},
 				x = true,
 				y = true,
+			},
+			portraits = {
+				misc = {
+					boss = true,
+					elite = true,
+					player = true,
+					rare = true,
+					rareelite = true,
+				},
 			},
 			version = true,
 		},

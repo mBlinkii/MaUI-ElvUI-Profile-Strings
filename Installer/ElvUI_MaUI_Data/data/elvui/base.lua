@@ -1561,8 +1561,13 @@ MaUI:RegisterData("elvui", "base", {
 				texture = "diamond",
 			},
 			misc = {
+				boss = "forever_hd_boss_neutral",
+				elite = "forever_hd_elite_neutral",
 				embellishment = false,
 				filter = "TRILINEAR",
+				player = "forever_hd_boss_neutral",
+				rare = "forever_hd_elite_neutral",
+				rareelite = "forever_hd_elite_neutral",
 			},
 			party = {
 				extra_settings = {

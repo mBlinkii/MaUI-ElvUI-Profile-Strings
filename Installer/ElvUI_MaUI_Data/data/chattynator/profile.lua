@@ -23,6 +23,7 @@ MaUI:RegisterData("chattynator", "profile", {
 	fade_completely = true,
 	faded_alpha = 0.5,
 	force_tab_overflow = false,
+	hide_last_names = false,
 	keep_edit_box_visible = false,
 	line_spacing_2 = 0,
 	link_urls = true,

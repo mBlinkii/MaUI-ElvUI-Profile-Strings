@@ -57,7 +57,7 @@ MaUI:RegisterData("baganator", "profile", {
 	bag_view_show_bag_slots = false,
 	bag_view_type = "category",
 	bag_view_width = 18,
-	bank_current_tab = 1,
+	bank_current_tab = 2,
 	bank_view_position = {
 		"BOTTOMLEFT",
 		20.9999942779541,
