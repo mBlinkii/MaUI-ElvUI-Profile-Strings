@@ -10,13 +10,13 @@ Opening in game: automatically on first login, otherwise via `/maui`, the addon 
 ElvUI_MaUI/
   init.lua            namespace, colors, media
   core/               helpers, module registry + install flow, startup
-  modules/            one module per addon (elvui, mmt, uiscale, blizzard, details, baganator, mplustimer)
+  modules/            one module per addon (elvui, mmt, uiscale, blizzard, details, baganator, chattynator, mplustimer)
   data/index.lua      data revision, old versions, window colors (generated, always loaded)
   ui/                 widgets, main window, pages
   locales/            deDE, esES/esMX, frFR, itIT, koKR, ptBR, ruRU, zhCN, zhTW (English is the default in code)
   media/              logo, icons, generated textures
 ElvUI_MaUI_Data/      LoadOnDemand addon holding the profiles as Lua tables (generated, see below)
-  data/               elvui, mmt, details, baganator, mplustimer, blizzard, legacy
+  data/               elvui, mmt, details, baganator, chattynator, mplustimer, blizzard, legacy
 tools/
   convert.py          generates ElvUI_MaUI_Data and data/index.lua from Profile/*.txt or ElvUI's SavedVariables
   savedvars.py        reader for WoW SavedVariables
@@ -40,8 +40,8 @@ A new addon profile only needs one file in `modules/` (`MaUI:RegisterModule{...}
 ## Updating profiles
 
 1. Adjust the profiles in game and `/reload` (so the SavedVariables get written).
-2. Update the strings in `Profile/` (Details, Baganator, M+ Timer, mMT, Edit Mode). The Edit Mode layout exists per client: `blizzard.txt` from Retail, `blizzard_forever.txt` from Forever.
-3. Regenerate the data. The ElvUI profiles come straight from the SavedVariables; the profile names are set in `SV_LAYOUTS` / `SV_PRIVATE` in `convert.py`:
+2. Update the strings in `Profile/` (Details, Baganator categories, M+ Timer, mMT, Edit Mode). The Edit Mode layout exists per client: `blizzard.txt` from Retail, `blizzard_forever.txt` from Forever.
+3. Regenerate the data. The ElvUI profiles come straight from the SavedVariables; the profile names are set in `SV_LAYOUTS` / `SV_PRIVATE` in `convert.py`. The Baganator profile and the Chattynator profile are read from `Baganator.lua` and `Chattynator.lua` in the same folder (`SV_BAGANATOR` / `SV_CHATTYNATOR`); Chattynator's window is re-anchored to the bottom left and its chat colors are dropped:
 
 ```bash
 python -I Installer/tools/convert.py --savedvars "C:/Program Files (x86)/World of Warcraft/_retail_/WTF/Account/<ACCOUNT>/SavedVariables/ElvUI.lua"
@@ -53,7 +53,7 @@ Profiles that players previously imported by hand from the strings (e.g. "MaUI v
 
 Before a new release: copy the ElvUI strings of the previous version to `Archive/v<version>/` and add them to `LEGACY`, so players with those strings can update later.
 
-Without `--savedvars`, the ElvUI data is also read from the strings in `Profile/`. Personal settings (Grid, premade filters, old installer flags, Details character assignment, ElvUI's own export blacklist) are removed automatically.
+Without `--savedvars`, the ElvUI data and the Baganator profile are read from the strings in `Profile/`, and the Chattynator data stays as it is. Personal settings (Grid, premade filters, old installer flags, Details character assignment, ElvUI's own export blacklist) are removed automatically.
 
 ## Checking and publishing
 

@@ -145,6 +145,7 @@ L["All Edit Mode layout slots are in use, delete one and run the installer again
 L["Damage meter windows in the MaUI style."] = "MaUI 風格的傷害統計視窗。"
 L["Details! rejected the profile."] = "Details! 拒絕了此設定檔。"
 L["Bag layout with the MaUI categories."] = "套用 MaUI 分類的背包版面。"
+L["Chat window with the MaUI tabs in the ElvUI style."] = "套用 MaUI 分頁的 ElvUI 風格聊天視窗。"
 L["Mythic+ timer matching the MaUI layout."] = "與 MaUI 版面搭配的傳奇鑰石計時器。"
 L["The M+ Timer settings are not loaded."] = "M+ Timer 的設定未載入。"
 

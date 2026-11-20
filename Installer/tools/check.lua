@@ -122,7 +122,7 @@ _G.EssentialCooldownViewer = Stub()
 _G.format, _G.strmatch, _G.tinsert, _G.sort, _G.tremove = string.format, string.match, table.insert, table.sort, table.remove
 _G.floor, _G.time, _G.date, _G.strsub, _G.strfind, _G.strlower, _G.strmatch = math.floor, os.time, os.date, string.sub, string.find, string.lower, string.match
 
-local addons = { ElvUI = true, ElvUI_mMediaTag = true, Details = true, Baganator = true, MauiMPlusTimer = true }
+local addons = { ElvUI = true, ElvUI_mMediaTag = true, Details = true, Baganator = true, Chattynator = true, MauiMPlusTimer = true }
 local LoadToc -- defined with the addon loader below
 local dataLoads = 0
 _G.C_AddOns = {
@@ -336,6 +336,9 @@ _G.Details = {
 local baganatorImport
 _G.Baganator = { API = { ImportString = function(str, name) baganatorImport = { str, name } end } }
 
+local chattynatorImport
+_G.Chattynator = { API = { ImportString = function(str, name) chattynatorImport = { str, name } end } }
+
 _G.MauiMPlusTimerDB = { profileKeys = {}, profiles = { Default = {} } }
 
 local mmtUpdated
@@ -377,7 +380,7 @@ check(MaUI.DataRevision and MaUI.LegacyKeys["8.5/heal_cdm"] and MaUI.ThemeColors
 for _, pair in ipairs({
 	{ "elvui", "base" }, { "elvui", "tankdd" }, { "elvui", "tankdd_cdm" }, { "elvui", "heal" }, { "elvui", "heal_cdm" },
 	{ "elvui", "private" }, { "elvui", "global" }, { "mmt", "datapanels" }, { "mmt", "cdm" }, { "blizzard", "editmode" }, { "blizzard", "editmode_forever" },
-	{ "details", "profile" }, { "baganator", "profile" }, { "baganator", "categories" }, { "mplustimer", "profile" },
+	{ "details", "profile" }, { "baganator", "profile" }, { "baganator", "categories" }, { "chattynator", "profile" }, { "mplustimer", "profile" },
 }) do
 	check(type(MaUI:GetData(pair[1], pair[2])) ~= "nil", "missing data " .. pair[1] .. "/" .. pair[2])
 end
@@ -416,7 +419,7 @@ check(E.Options.args.MaUIInstaller, "options entry missing")
 
 local Installer, State = MaUI.Installer, MaUI.State
 check(State.cdm == true, "CDM should default on for retail")
-check(State.modules.details and State.modules.baganator and State.modules.mplustimer, "found addons should be preselected")
+check(State.modules.details and State.modules.baganator and State.modules.chattynator and State.modules.mplustimer, "found addons should be preselected")
 check(State.modules.cvars and State.modules.chat, "CVars and chat should be preselected on a fresh character")
 
 -- pages: 1 welcome, 2 ElvUI setup, 3 existing profiles, 4 layout, 5 ElvUI modules, 6 data panels, 7 addons, 8 scale, 9 install, 10 done
@@ -487,6 +490,10 @@ check(savedEditMode and #savedEditMode.layouts == 2 and savedEditMode.layouts[2]
 check(_G.__activeLayout == 4, "Edit Mode layout not activated: " .. tostring(_G.__activeLayout))
 check(detailsImport and detailsImport[2] == "MaUI" and detailsImport[3], "Details import missing")
 check(baganatorImport and baganatorImport[1]:find("^BGR!1!") and baganatorImport[2] == "MaUI", "Baganator import missing")
+local chattyData = chattynatorImport and _G.C_EncodingUtil.DeserializeCBOR(chattynatorImport[1]:sub(10))
+check(chattynatorImport and chattynatorImport[1]:find("^CHATTY!1!") and chattynatorImport[2] == "MaUI", "Chattynator import missing")
+check(chattyData and chattyData.addon == "Chattynator" and chattyData.windows[1].position[1] == "BOTTOMLEFT", "Chattynator import data wrong")
+check(MaUI:GetData("chattynator", "profile").addon == nil, "the registered Chattynator data must stay as it is")
 check(_G.MauiMPlusTimerDB.profileKeys["Tester - Realm"] == "MaUI" and _G.MauiMPlusTimerDB.profiles.MaUI, "M+ Timer profile missing")
 check(MaUIInstallerCharDB.installed == "8.5" and MaUIInstallerCharDB.layout == "heal", "install state not saved")
 check(calls.cvars == 1, "CVars setup did not run once")

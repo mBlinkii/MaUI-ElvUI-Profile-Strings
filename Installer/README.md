@@ -10,6 +10,7 @@ The MaUI Installer sets up the complete MaUI v8.5 interface for you with a few c
 - **Blizzard Edit Mode** layout
 - **Details!**
 - **Baganator**
+- **Chattynator**
 - **MaUI M+ Timer**
 
 You only see profiles for addons that you have installed and enabled. Anything you don't use is simply skipped.

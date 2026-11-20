@@ -16,7 +16,7 @@
 ## X-MaUI-Profile: 8.5
 ## IconTexture: Interface\AddOns\ElvUI_MaUI\media\icon
 ## RequiredDeps: ElvUI, ElvUI_mMediaTag
-## OptionalDeps: Baganator, Details, MauiMPlusTimer, !!FunctionProfiler
+## OptionalDeps: Baganator, Chattynator, Details, MauiMPlusTimer, !!FunctionProfiler
 ## SavedVariables: MaUIInstallerDB
 ## SavedVariablesPerCharacter: MaUIInstallerCharDB
 ## AddonCompartmentFunc: ElvUI_MaUI_OnAddonCompartmentClick
@@ -56,6 +56,7 @@ modules\elvui_setup.lua
 modules\blizzard.lua
 modules\details.lua
 modules\baganator.lua
+modules\chattynator.lua
 modules\mplustimer.lua
 
 data\index.lua

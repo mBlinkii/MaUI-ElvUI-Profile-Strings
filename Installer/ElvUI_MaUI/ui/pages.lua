@@ -71,7 +71,7 @@ local ADDON_STATUS = {
 	optional = { L["Optional"], C.muted },
 }
 
-local ADDON_PAGE_MODULES = { "elvui", "mmt", "blizzard", "details", "baganator", "mplustimer" }
+local ADDON_PAGE_MODULES = { "elvui", "mmt", "blizzard", "details", "baganator", "chattynator", "mplustimer" }
 
 local function CreateAddonCard(parent, module, width)
 	local card = W.Panel(parent, C.surface, C.border, 0.85)

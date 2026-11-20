@@ -147,6 +147,7 @@ L["All Edit Mode layout slots are in use, delete one and run the installer again
 L["Damage meter windows in the MaUI style."] = "Ventanas del medidor de daño con el estilo de MaUI."
 L["Details! rejected the profile."] = "Details! rechazó el perfil."
 L["Bag layout with the MaUI categories."] = "Diseño de bolsas con las categorías de MaUI."
+L["Chat window with the MaUI tabs in the ElvUI style."] = "Ventana de chat con las pestañas de MaUI al estilo de ElvUI."
 L["Mythic+ timer matching the MaUI layout."] = "Temporizador M+ a juego con el diseño de MaUI."
 L["The M+ Timer settings are not loaded."] = "Los ajustes del M+ Timer no están cargados."
 

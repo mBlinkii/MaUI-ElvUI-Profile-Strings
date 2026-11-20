@@ -24,6 +24,7 @@ data\baganator\categories.lua
 data\baganator\profile.lua
 data\blizzard\editmode.lua
 data\blizzard\editmode_forever.lua
+data\chattynator\profile.lua
 data\details\profile.lua
 data\elvui\base.lua
 data\elvui\global.lua

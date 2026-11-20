@@ -7,7 +7,8 @@ Reads every known string from Profile/, decodes it the same way the addon that
 exported it would, and writes Lua files to Installer/ElvUI_MaUI_Data/data/ (a LoadOnDemand addon) plus a small
 index for the installer in Installer/ElvUI_MaUI/data/index.lua. With
 --savedvars the ElvUI profile, private and global data come straight from
-ElvUI's SavedVariables instead (profile names in SV_LAYOUTS / SV_PRIVATE).
+ElvUI's SavedVariables instead (profile names in SV_LAYOUTS / SV_PRIVATE), and the
+Chattynator and Baganator profiles from their files next to it (SV_CHATTYNATOR, SV_BAGANATOR).
 
 The four ElvUI layouts are split into a shared base plus small per-layout
 overrides, so a change to the common setup only has to be made once.
@@ -495,6 +496,53 @@ def clear_disabled_panels(profile):
     return profile
 
 
+# Chattynator only has SavedVariables as a source: the profile in Chattynator.lua next to ElvUI.lua
+SV_CHATTYNATOR = "DEFAULT"
+CHATTYNATOR_STRIP = {
+    # Blizzard's default colors plus the author's own (localized) channels; Chattynator reads the colors itself
+    "chat_colors": True,
+    "debug": True,
+}
+# the author's UIParent height (2560x1440 at ElvUI's UI scale 0.5333), to turn the TOPLEFT
+# position Chattynator saves into a BOTTOMLEFT one that stays at the bottom on every screen
+CHATTYNATOR_SCREEN_HEIGHT = 1440
+
+
+def from_chattynator(path):
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import savedvars
+    profile = strip(savedvars.load(path)["CHATTYNATOR_CONFIG"]["Profiles"][SV_CHATTYNATOR], CHATTYNATOR_STRIP)
+    windows = profile.get("windows", {})
+    for window in windows.values():
+        # temporary tabs (whispers) only belong to the session, Chattynator's own export drops them too
+        tabs = [t for _, t in sorted(window.get("tabs", {}).items()) if not t.get("isTemporary")]
+        window["tabs"] = {i + 1: dict(t, whispersTemp={}) for i, t in enumerate(tabs)}
+        pos, size = window.get("position"), window.get("size")
+        if pos and size and pos[1] == "TOPLEFT" and pos[3] == "TOPLEFT":
+            bottom = CHATTYNATOR_SCREEN_HEIGHT + pos[5] - size[2]
+            window["position"] = {1: "BOTTOMLEFT", 2: pos[2], 3: "BOTTOMLEFT", 4: round(pos[4]), 5: round(bottom)}
+        if size:
+            window["size"] = {k: round(v) for k, v in size.items()}
+    return profile
+
+
+# the Baganator profile from Baganator.lua next to ElvUI.lua, shaped like Baganator's own profile export;
+# the categories keep coming from baganator_category.txt, Baganator builds that export from the profile
+SV_BAGANATOR = "MaUI"
+BAGANATOR_MAP_KEYS = ("hide_special_container",)  # addonTable.Config.MapKeysForExport: exported with string keys
+
+
+def from_baganator(path):
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import savedvars
+    profile = savedvars.load(path)["BAGANATOR_CONFIG"]["Profiles"][SV_BAGANATOR]
+    profile.update(addon="Baganator", version=3, kind="profile")
+    for key in BAGANATOR_MAP_KEYS:
+        if isinstance(profile.get(key), dict):
+            profile[key] = {str(k): v for k, v in profile[key].items()}
+    return profile
+
+
 # per-module cleanup of decoded strings: drop what only belongs to the author
 CLEANUP = {
     # Details maps every character of the exporting account to a profile
@@ -506,11 +554,21 @@ CLEANUP = {
 
 def main():
     sv_path = sys.argv[sys.argv.index("--savedvars") + 1] if "--savedvars" in sys.argv else None
+    from_sv = set()  # outputs already written from SavedVariables, their strings in Profile/ are older
     if sv_path:
         layouts, private, glob = from_savedvars(sv_path)
         sources = {k: "SavedVariables " + v for k, v in SV_LAYOUTS.items()}
         write("elvui/private.lua", "SavedVariables " + SV_PRIVATE, register("elvui", "private", private))
         write("elvui/global.lua", "SavedVariables global", register("elvui", "global", glob))
+        chattynator = os.path.join(os.path.dirname(sv_path), "Chattynator.lua")
+        if os.path.exists(chattynator):
+            write("chattynator/profile.lua", "SavedVariables Chattynator " + SV_CHATTYNATOR,
+                  register("chattynator", "profile", from_chattynator(chattynator)))
+        baganator = os.path.join(os.path.dirname(sv_path), "Baganator.lua")
+        if os.path.exists(baganator):
+            write("baganator/profile.lua", "SavedVariables Baganator " + SV_BAGANATOR,
+                  register("baganator", "profile", from_baganator(baganator)))
+            from_sv.add("baganator/profile.lua")
     else:
         layouts = {k: read(v) for k, v in LAYOUTS.items()}
         sources = LAYOUTS
@@ -526,7 +584,7 @@ def main():
         write("elvui/layout_%s.lua" % key, sources[key], register("elvui", key, subtract(table, base)))
 
     for out, module, key, source in SINGLES:
-        if sv_path and module == "elvui":
+        if sv_path and module == "elvui" or out in from_sv:
             continue
         if os.path.exists(os.path.join(SRC, source)):
             table = read(source)

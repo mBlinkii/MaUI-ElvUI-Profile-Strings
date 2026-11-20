@@ -145,6 +145,7 @@ L["All Edit Mode layout slots are in use, delete one and run the installer again
 L["Damage meter windows in the MaUI style."] = "MaUI 스타일의 피해량 측정기 창."
 L["Details! rejected the profile."] = "Details!가 프로필을 거부했습니다."
 L["Bag layout with the MaUI categories."] = "MaUI 분류가 적용된 가방 레이아웃."
+L["Chat window with the MaUI tabs in the ElvUI style."] = "ElvUI 스타일의 MaUI 탭이 적용된 채팅 창."
 L["Mythic+ timer matching the MaUI layout."] = "MaUI 레이아웃에 맞춘 쐐기돌 타이머."
 L["The M+ Timer settings are not loaded."] = "M+ Timer 설정을 불러오지 못했습니다."
 
