@@ -629,16 +629,21 @@ AddPage({
 		frame.cards = {}
 		local width = (PAGE_WIDTH - 14) / 2
 
+		-- more cards than fit on the page scroll, the window keeps its size
+		frame.scroll = W.Scroll(frame, PAGE_WIDTH, frame:GetHeight())
+		frame.scroll:SetPoint("TOPLEFT")
+
 		local index = 0
 		for _, key in ipairs(ADDON_PAGE_MODULES) do
 			local module = MaUI:GetModule(key)
 			if module and MaUI:IsSupported(module) then
-				local card = CreateAddonCard(frame, module, width)
+				local card = CreateAddonCard(frame.scroll.child, module, width)
 				card:SetPoint("TOPLEFT", (index % 2) * (width + 14), -floor(index / 2) * 124)
 				tinsert(frame.cards, card)
 				index = index + 1
 			end
 		end
+		frame.scroll:SetContentHeight(floor((index + 1) / 2) * 124 - 12)
 	end,
 	Refresh = function(_, frame)
 		for _, card in ipairs(frame.cards) do

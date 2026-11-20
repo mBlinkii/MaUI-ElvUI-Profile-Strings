@@ -456,6 +456,16 @@ for _, card in ipairs(MaUI.Pages[7].frame.cards) do
 end
 Click(baganatorCard.choice.buttons[2])
 check(State.choices.baganator == "categories", "segmented choice did not apply")
+-- the cards scroll inside the page: the wheel moves the view, never past the last card
+local addonScroll = MaUI.Pages[7].frame.scroll
+local Tween = MaUI.Widgets.Tween
+MaUI.Widgets.Tween = function(key, from, to, _, apply, done) Tween(key, from, to, 0, apply, done) end -- no frames run here
+check(addonScroll and addonScroll.range > 0 and addonScroll.bar:IsShown(), "addon cards should scroll when they do not fit")
+addonScroll:GetScript("OnMouseWheel")(addonScroll, -100)
+check(addonScroll.offset == addonScroll.range, "scrolling down should stop at the last card: " .. tostring(addonScroll.offset))
+addonScroll:GetScript("OnMouseWheel")(addonScroll, 100)
+check(addonScroll.offset == 0, "scrolling up should stop at the top")
+MaUI.Widgets.Tween = Tween
 
 Click(nextButton) -- -> scale
 check(MaUI.Pages[8].frame.notice:IsShown(), "1080p should show the resolution notice")

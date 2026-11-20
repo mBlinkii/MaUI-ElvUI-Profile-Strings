@@ -6,6 +6,7 @@ local abs, cos, sin, max, min, pi, random = math.abs, math.cos, math.sin, math.m
 local CreateFrame = CreateFrame
 local CreateColor = CreateColor
 local GetLocale = GetLocale
+local GetCursorPosition = GetCursorPosition
 
 local C = MaUI.Colors
 local Media = MaUI.Media
@@ -886,4 +887,89 @@ function W.Card(parent, width, height, onClick)
 
 	card:SetSelected(false)
 	return card
+end
+
+-- scroll area ----------------------------------------------------------------
+
+local SCROLL_STEP, SCROLL_BAR, SCROLL_GAP, THUMB_MIN, THUMB_IDLE = 62, 4, 14, 28, 0.7
+
+-- a clipped area of the given size; its content goes into scroll.child and the page says how tall that
+-- content is (SetContentHeight). The mouse wheel scrolls it, a slim bar right of the area shows where you
+-- are and can be dragged; wheel and bar are only active when the content does not fit.
+function W.Scroll(parent, width, height)
+	local scroll = Adopt(parent, CreateFrame("ScrollFrame", nil, Host(parent)))
+	scroll:SetSize(width, height)
+	scroll.range, scroll.offset, scroll.target, scroll.thumbHeight = 0, 0, 0, height
+
+	scroll.child = CreateFrame("Frame", nil, scroll)
+	scroll.child:SetSize(width, height)
+	scroll:SetScrollChild(scroll.child)
+
+	-- in the page padding next to the area, so the content keeps its full width
+	local bar = Adopt(parent, CreateFrame("Frame", nil, Host(parent)))
+	bar:SetSize(SCROLL_BAR, height)
+	bar:SetPoint("TOPLEFT", scroll, "TOPRIGHT", SCROLL_GAP, 0)
+	bar.track = W.Texture(bar, nil, "BACKGROUND", C.border)
+	bar.track:SetAllPoints()
+
+	-- wider than it looks, a 4 px bar is hard to grab; in the class color, a little dimmed until it is used
+	local thumb = CreateFrame("Button", nil, bar)
+	thumb:SetWidth(SCROLL_BAR + 10)
+	thumb.bar = W.Texture(thumb, nil, "ARTWORK", C.accent, THUMB_IDLE)
+	thumb.bar:SetPoint("TOP")
+	thumb.bar:SetPoint("BOTTOM")
+	thumb.bar:SetWidth(SCROLL_BAR)
+	scroll.bar, scroll.thumb = bar, thumb
+
+	local function Place(offset)
+		scroll.offset = offset
+		scroll:SetVerticalScroll(offset)
+		local travel = height - scroll.thumbHeight
+		thumb:SetPoint("TOP", bar, "TOP", 0, -(scroll.range > 0 and travel * offset / scroll.range or 0))
+	end
+
+	function scroll:ScrollTo(offset, instant)
+		self.target = max(0, min(self.range, offset))
+		W.Tween(self, self.offset, self.target, instant and 0 or 0.2, Place)
+	end
+
+	function scroll:SetContentHeight(contentHeight)
+		self.child:SetHeight(contentHeight)
+		self.range = max(0, contentHeight - height)
+		self.thumbHeight = max(THUMB_MIN, height * height / max(contentHeight, height))
+		thumb:SetHeight(self.thumbHeight)
+		bar:SetShown(self.range > 0)
+		self:EnableMouseWheel(self.range > 0)
+		self:ScrollTo(self.target, true)
+	end
+
+	scroll:SetScript("OnMouseWheel", function(self, delta)
+		self:ScrollTo(self.target - delta * SCROLL_STEP)
+	end)
+
+	local function Highlight(self, on)
+		self.bar:SetVertexColor(C.accent[1], C.accent[2], C.accent[3], on and 1 or THUMB_IDLE)
+	end
+	thumb:SetScript("OnEnter", function(self) Highlight(self, true) end)
+	thumb:SetScript("OnLeave", function(self)
+		if not self.dragging then Highlight(self, false) end
+	end)
+	thumb:SetScript("OnMouseDown", function(self)
+		local _, y = GetCursorPosition()
+		self.dragging, self.startY, self.startOffset = true, y / self:GetEffectiveScale(), scroll.offset
+		self:SetScript("OnUpdate", function()
+			local _, now = GetCursorPosition()
+			local travel = height - scroll.thumbHeight
+			if travel > 0 then
+				scroll:ScrollTo(self.startOffset + (self.startY - now / self:GetEffectiveScale()) * scroll.range / travel, true)
+			end
+		end)
+	end)
+	thumb:SetScript("OnMouseUp", function(self)
+		self.dragging = false
+		self:SetScript("OnUpdate", nil)
+		if not self:IsMouseOver() then Highlight(self, false) end
+	end)
+
+	return scroll
 end
