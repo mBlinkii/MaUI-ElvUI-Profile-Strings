@@ -71,4 +71,6 @@ Write new strings in code in English as `L["..."]`. `locales.py` then shows whic
 python -I Installer/tools/package.py 1.0.0
 ```
 
-The zip ends up in `Installer/dist/` and can be uploaded to CurseForge directly. Once the CurseForge project has been created, its project ID goes into the TOC as `## X-Curse-Project-ID:`.
+The zip ends up in `Installer/dist/` and can be uploaded to CurseForge directly.
+
+Releases: set `## Version:` in both TOCs to the new version before tagging (`git tag v1.0.3`). The workflow stamps the packaged build from the tag anyway, but the AddOns folders are linked to the repo, so in game the installer shows the version from the repo TOC. Once the CurseForge project has been created, its project ID goes into the TOC as `## X-Curse-Project-ID:`.

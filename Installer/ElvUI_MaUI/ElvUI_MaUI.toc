@@ -12,7 +12,7 @@
 ## Notes-zhCN: MaUI ElvUI 配置文件及配套插件配置文件的安装向导。
 ## Notes-zhTW: MaUI ElvUI 設定檔及搭配插件設定檔的安裝精靈。
 ## Author: Blinkii
-## Version: 1.0.0
+## Version: 1.0.2
 ## X-MaUI-Profile: 8.5
 ## IconTexture: Interface\AddOns\ElvUI_MaUI\media\icon
 ## RequiredDeps: ElvUI, ElvUI_mMediaTag

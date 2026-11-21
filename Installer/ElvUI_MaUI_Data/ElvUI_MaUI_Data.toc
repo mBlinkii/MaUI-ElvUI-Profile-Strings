@@ -3,7 +3,7 @@
 ## Notes: Profile data of the MaUI installer, only loaded while installing or updating.
 ## Notes-deDE: Profildaten des MaUI-Installers, werden nur beim Installieren oder Aktualisieren geladen.
 ## Author: Blinkii
-## Version: 1.0.0
+## Version: 1.0.2
 ## IconTexture: Interface\AddOns\ElvUI_MaUI\media\icon
 ## LoadOnDemand: 1
 ## Dependencies: ElvUI_MaUI
